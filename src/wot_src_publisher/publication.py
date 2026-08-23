@@ -675,11 +675,24 @@ def _copy_tree(source: Path, destination: Path) -> None:
 
 
 def _existing_publication(worktree: Path) -> dict[str, Any] | None:
-    path = worktree / ".publication.json"
-    if not path.exists():
+    tracked = _run_git(
+        worktree,
+        "ls-tree",
+        "--name-only",
+        "HEAD",
+        "--",
+        ".publication.json",
+    ).stdout.strip()
+    if not tracked:
         return None
-    value, _encoded = _read_json(path, label="existing publication metadata")
-    return value
+    encoded = _run_git(worktree, "show", "HEAD:.publication.json").stdout
+    try:
+        value = json.loads(encoded)
+    except json.JSONDecodeError as error:
+        raise PublicationError(
+            f"cannot read existing publication metadata: {error}"
+        ) from error
+    return _object(value, label="existing publication metadata")
 
 
 def _validate_bootstrap_branch(worktree: Path) -> None:
@@ -692,9 +705,7 @@ def _validate_bootstrap_branch(worktree: Path) -> None:
         raise PublicationError(
             "existing data branch is not a valid README-only init branch"
         )
-    readme = _regular_file(worktree, "README.md", label="bootstrap README").read_text(
-        encoding="utf-8"
-    )
+    readme = _run_git(worktree, "show", "HEAD:README.md").stdout
     if readme != render_bootstrap_readme():
         raise PublicationError("existing data branch bootstrap README does not match")
 
@@ -755,10 +766,35 @@ def publish_snapshot(
         branch_exists = remote_check.returncode == 0
         if branch_exists:
             tracking_ref = f"refs/remotes/origin/{branch}"
-            _run_git(repository, "fetch", "--no-tags", "origin", f"+{remote_ref}:{tracking_ref}")
-            _run_git(repository, "worktree", "add", "--detach", str(worktree), tracking_ref)
+            _run_git(repository, "config", "remote.origin.promisor", "true")
+            _run_git(repository, "config", "remote.origin.partialclonefilter", "tree:0")
+            _run_git(
+                repository,
+                "fetch",
+                "--no-tags",
+                "--filter=tree:0",
+                "origin",
+                f"+{remote_ref}:{tracking_ref}",
+            )
+            _run_git(
+                repository,
+                "worktree",
+                "add",
+                "--detach",
+                "--no-checkout",
+                str(worktree),
+                tracking_ref,
+            )
         else:
-            _run_git(repository, "worktree", "add", "--detach", str(worktree), "HEAD")
+            _run_git(
+                repository,
+                "worktree",
+                "add",
+                "--detach",
+                "--no-checkout",
+                str(worktree),
+                "HEAD",
+            )
             _run_git(worktree, "switch", "--orphan", branch)
             _run_git(worktree, "read-tree", "--empty")
         worktree_registered = True

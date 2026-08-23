@@ -27,6 +27,8 @@ def _service_repository(tmp_path: Path) -> tuple[Path, Path]:
     remote = tmp_path / "remote.git"
     repository = tmp_path / "service"
     _git("init", "--bare", "--initial-branch=main", str(remote))
+    _git("--git-dir", str(remote), "config", "uploadpack.allowFilter", "true")
+    _git("--git-dir", str(remote), "config", "uploadpack.allowAnySHA1InWant", "true")
     _git("init", "--initial-branch=main", str(repository))
     _git("config", "user.name", "fixture", cwd=repository)
     _git("config", "user.email", "fixture@example.invalid", cwd=repository)
@@ -167,6 +169,21 @@ def test_publish_continues_a_valid_production_init_branch(tmp_path: Path) -> Non
     _git("push", "origin", "wot-eu", cwd=repository)
     _git("switch", "main", cwd=repository)
 
+    publisher_repository = tmp_path / "fresh-publisher"
+    _git(
+        "clone",
+        "--no-local",
+        "--depth",
+        "1",
+        "--branch",
+        "main",
+        "--single-branch",
+        str(remote),
+        str(publisher_repository),
+    )
+    _git("config", "user.name", "publisher", cwd=publisher_repository)
+    _git("config", "user.email", "publisher@example.invalid", cwd=publisher_repository)
+
     snapshot = tmp_path / "snapshot"
     snapshot_id, descriptor_sha256 = create_snapshot(
         snapshot,
@@ -184,7 +201,7 @@ def test_publish_continues_a_valid_production_init_branch(tmp_path: Path) -> Non
     )
 
     result = _publish(
-        repository,
+        publisher_repository,
         snapshot,
         snapshot_id=snapshot_id,
         descriptor_sha256=descriptor_sha256,
@@ -205,3 +222,11 @@ def test_publish_continues_a_valid_production_init_branch(tmp_path: Path) -> Non
     _git("clone", "--branch", "wot-eu", str(remote), str(data_checkout))
     assert (data_checkout / ".publication.json").is_file()
     assert "Версия: `2.3.1.5400`" in (data_checkout / "README.md").read_text()
+
+
+def test_publisher_uses_a_commit_only_fetch_without_checking_out_old_data() -> None:
+    source = (ROOT / "src/wot_src_publisher/publication.py").read_text()
+
+    assert '"--filter=tree:0"' in source
+    assert '"--no-checkout"' in source
+    assert '"show", "HEAD:.publication.json"' in source

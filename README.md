@@ -60,7 +60,8 @@ Runner для builder и runner для `wot-src` подготавливаютс�
 только из служебной ветки `main`. Publisher независимо проверяет canonical descriptor, маркер
 `READY`, snapshot identity, manifest hashes, payload hashes и полное manifest coverage. Затем он
 проецирует только публичные данные, создаёт commit с сообщением из `.version_name` и отправляет его
-в ветку целевого региона.
+в ветку целевого региона. История data-ветки загружается как commit-only partial fetch; payload
+предыдущих версий не скачивается, а новый Git tree строится напрямую из локального GameSnapshot.
 
 Production-ветки принимают только `full` snapshot. Light-прогоны публикуются во временные ветки
 `test/light-<target>`, чтобы интеграционные проверки не попадали в постоянную историю. Повторная
