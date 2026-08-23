@@ -18,6 +18,16 @@ LANGUAGE_RE = re.compile(r"^[A-Z]{2}(?:_[A-Z]{2})?$")
 SOURCE_SUFFIXES = frozenset({".po", ".py", ".xml"})
 GAMEFACE_PREFIX = "res/gui/gameface/"
 MANIFEST_NAMES = ("files", "actionscript", "stubs", "packages", "conflicts")
+REPOSITORY_URL = "https://github.com/wotstat/wot-src"
+REGION_BRANCHES = (
+    ("World of Tanks — Europe", "wot-eu"),
+    ("World of Tanks — North America", "wot-na"),
+    ("World of Tanks — Asia", "wot-asia"),
+    ("World of Tanks — China", "wot-cn"),
+    ("World of Tanks — Common Test", "wot-common-test"),
+    ("Мир танков — Россия", "mt-ru"),
+    ("Мир танков — Public Test", "mt-public-test"),
+)
 
 
 class PublicationError(ValueError):
@@ -385,6 +395,81 @@ def _assert_no_collisions(paths: list[str]) -> None:
         seen[folded] = path
 
 
+def _data_readme_intro() -> str:
+    region_rows = "\n".join(
+        f"| {client} | [`{data_branch}`]({REPOSITORY_URL}/tree/{data_branch}) |"
+        for client, data_branch in REGION_BRANCHES
+    )
+    readme = f"""# wot-src
+
+Публичная история читаемых исходников и текстовых данных клиентов World of Tanks и «Мира
+танков». Служебный код и GitHub Actions workflows находятся в ветке
+[`main`]({REPOSITORY_URL}/tree/main), а данные каждого клиента — в отдельной региональной ветке.
+
+## Регионы
+
+| Клиент | Data-ветка |
+| --- | --- |
+{region_rows}
+
+Каждая production data-ветка начинается с bootstrap commit `init`, содержащего этот README. Каждый
+следующий commit соответствует одной версии клиента; точный номер версии записан в сообщении commit
+и в `.version_name`.
+
+## Структура data-ветки
+
+```text
+README.md
+.version_name
+.publication.json
+sources/             # base + default locale overlay; .py, .xml, .po, Licenses.txt
+locales/<LANG>/      # все locale overlays WG, включая default locale
+sources-as3/         # декомпилированные .as
+sources-gameface/    # содержимое base/res/gui/gameface без исходного префикса
+stubs/               # полный manifest payload IDE stubs
+```
+
+Для клиентов Wargaming default locale накладывается поверх `base` в `sources/`, а все локали,
+включая default locale, также сохраняются в `locales/`. У клиентов Lesta отдельного дерева
+`locales/` нет: локализованные файлы уже входят в `sources/`.
+"""  # noqa: RUF001 - the generated README intentionally contains Russian prose
+    return readme
+
+
+def render_bootstrap_readme() -> str:
+    return f"""{_data_readme_intro()}
+
+## Статус ветки
+
+Первая версия клиента ещё не опубликована. После публикации здесь появятся данные версии и
+машиночитаемые метаданные `.publication.json`.
+"""
+
+
+def _data_readme(
+    *,
+    target: str,
+    branch: str,
+    release_name: str,
+    build_profile: str,
+    publisher: str,
+    snapshot_id: str,
+) -> str:
+    return f"""{_data_readme_intro()}
+
+## Текущая публикация
+
+- Target: `{target}`
+- Ветка: `{branch}`
+- Версия: `{release_name}`
+- Профиль snapshot: `{build_profile}`
+- Publisher: `{publisher}`
+- GameSnapshot: `{snapshot_id}`
+
+Машиночитаемые метаданные и контрольные идентификаторы находятся в `.publication.json`.
+"""
+
+
 def project_snapshot(
     snapshot_path: Path,
     output_path: Path,
@@ -523,6 +608,17 @@ def project_snapshot(
             _copy(item, temporary, relative)
 
         release_name = _string(source.get("release_name"), label="snapshot release name")
+        (temporary / "README.md").write_text(
+            _data_readme(
+                target=target,
+                branch=branch,
+                release_name=release_name,
+                build_profile=expected_profile,
+                publisher=publisher,
+                snapshot_id=expected_snapshot_id,
+            ),
+            encoding="utf-8",
+        )
         (temporary / ".version_name").write_text(f"{release_name}\n", encoding="utf-8")
         publication: dict[str, Any] = {
             "branch": branch,
@@ -584,6 +680,23 @@ def _existing_publication(worktree: Path) -> dict[str, Any] | None:
         return None
     value, _encoded = _read_json(path, label="existing publication metadata")
     return value
+
+
+def _validate_bootstrap_branch(worktree: Path) -> None:
+    commit_count = _run_git(worktree, "rev-list", "--count", "HEAD").stdout.strip()
+    subject = _run_git(worktree, "log", "-1", "--format=%s").stdout.strip()
+    tracked_files = _run_git(
+        worktree, "ls-tree", "-r", "--name-only", "HEAD"
+    ).stdout.splitlines()
+    if commit_count != "1" or subject != "init" or tracked_files != ["README.md"]:
+        raise PublicationError(
+            "existing data branch is not a valid README-only init branch"
+        )
+    readme = _regular_file(worktree, "README.md", label="bootstrap README").read_text(
+        encoding="utf-8"
+    )
+    if readme != render_bootstrap_readme():
+        raise PublicationError("existing data branch bootstrap README does not match")
 
 
 def publish_snapshot(
@@ -652,9 +765,12 @@ def publish_snapshot(
 
         existing = _existing_publication(worktree) if branch_exists else None
         if branch_exists and existing is None:
-            raise PublicationError(
-                "existing data branch has no .publication.json ownership marker"
-            )
+            target_config = _load_target(config_path, target)
+            if branch != target_config.data_branch:
+                raise PublicationError(
+                    "existing test branch has no .publication.json ownership marker"
+                )
+            _validate_bootstrap_branch(worktree)
         release_name = _string(publication.get("version_name"), label="publication version")
         if existing is not None:
             existing_snapshot_id = existing.get("snapshot_id")
@@ -704,4 +820,9 @@ def publish_snapshot(
         shutil.rmtree(temporary, ignore_errors=True)
 
 
-__all__ = ["PublicationError", "project_snapshot", "publish_snapshot"]
+__all__ = [
+    "PublicationError",
+    "project_snapshot",
+    "publish_snapshot",
+    "render_bootstrap_readme",
+]

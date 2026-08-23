@@ -8,6 +8,8 @@ from pathlib import Path
 
 from snapshot_fixture import create_snapshot
 
+from wot_src_publisher.publication import render_bootstrap_readme
+
 ROOT = Path(__file__).parents[1]
 
 
@@ -42,6 +44,8 @@ def _publish(
     *,
     snapshot_id: str,
     descriptor_sha256: str,
+    branch: str = "test/light-wot-eu",
+    profile: str = "light",
 ) -> subprocess.CompletedProcess[str]:
     environment = os.environ.copy()
     environment["PYTHONPATH"] = str(ROOT / "src")
@@ -58,13 +62,13 @@ def _publish(
             "--target",
             "wot-eu",
             "--branch",
-            "test/light-wot-eu",
+            branch,
             "--expected-snapshot-id",
             snapshot_id,
             "--expected-descriptor-sha256",
             descriptor_sha256,
             "--expected-profile",
-            "light",
+            profile,
         ],
         cwd=ROOT,
         env=environment,
@@ -127,7 +131,10 @@ def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) ->
 
     data_checkout = tmp_path / "data-checkout"
     _git("clone", "--branch", "test/light-wot-eu", str(remote), str(data_checkout))
-    assert not (data_checkout / "README.md").exists()
+    assert (data_checkout / "README.md").is_file()
+    assert "https://github.com/wotstat/wot-src/tree/wot-na" in (
+        data_checkout / "README.md"
+    ).read_text()
     assert not (data_checkout / "pyproject.toml").exists()
     assert (data_checkout / "sources/res/scripts/client/App.py").read_bytes() == (
         b"SOURCE = 'english'\n"
@@ -149,3 +156,52 @@ def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) ->
         "--count",
         "refs/heads/test/light-wot-eu",
     ) == "1"
+
+
+def test_publish_continues_a_valid_production_init_branch(tmp_path: Path) -> None:
+    repository, remote = _service_repository(tmp_path)
+    _git("switch", "--orphan", "wot-eu", cwd=repository)
+    (repository / "README.md").write_text(render_bootstrap_readme())
+    _git("add", "README.md", cwd=repository)
+    _git("commit", "--message", "init", cwd=repository)
+    _git("push", "origin", "wot-eu", cwd=repository)
+    _git("switch", "main", cwd=repository)
+
+    snapshot = tmp_path / "snapshot"
+    snapshot_id, descriptor_sha256 = create_snapshot(
+        snapshot,
+        target="wot-eu",
+        publisher="wargaming",
+        build_profile="full",
+        release_name="2.3.1.5400",
+        base_files={
+            "res/gui/gameface/index.html": b"<html></html>\n",
+            "res/scripts/client/App.py": b"SOURCE = 'base'\n",
+        },
+        locale_files={"EN": {"res/scripts/client/App.py": b"SOURCE = 'english'\n"}},
+        actionscript_files={"base_app/scripts/App.as": b"package {}\n"},
+        stub_files={"BigWorld.pyi": b"class Player: ...\n"},
+    )
+
+    result = _publish(
+        repository,
+        snapshot,
+        snapshot_id=snapshot_id,
+        descriptor_sha256=descriptor_sha256,
+        branch="wot-eu",
+        profile="full",
+    )
+
+    assert result.returncode == 0, result.stderr
+    assert json.loads(result.stdout)["publication_state"] == "published"
+    assert _git(
+        "--git-dir", str(remote), "rev-list", "--count", "refs/heads/wot-eu"
+    ) == "2"
+    assert _git(
+        "--git-dir", str(remote), "log", "--format=%s", "refs/heads/wot-eu"
+    ).splitlines() == ["2.3.1.5400", "init"]
+
+    data_checkout = tmp_path / "production-checkout"
+    _git("clone", "--branch", "wot-eu", str(remote), str(data_checkout))
+    assert (data_checkout / ".publication.json").is_file()
+    assert "Версия: `2.3.1.5400`" in (data_checkout / "README.md").read_text()

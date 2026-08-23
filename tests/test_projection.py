@@ -99,6 +99,23 @@ def test_wargaming_projection_applies_default_locale_and_keeps_all_locales(
 
     assert result.returncode == 0, result.stderr
     assert (output / ".version_name").read_text() == "2.3.1.5400\n"
+    readme = (output / "README.md").read_text()
+    assert readme.startswith("# wot-src\n")
+    for branch in (
+        "wot-eu",
+        "wot-na",
+        "wot-asia",
+        "wot-cn",
+        "wot-common-test",
+        "mt-ru",
+        "mt-public-test",
+    ):
+        assert f"https://github.com/wotstat/wot-src/tree/{branch}" in readme
+    assert "## Структура data-ветки" in readme
+    assert "Target: `wot-eu`" in readme
+    assert "Ветка: `test/light-wot-eu`" in readme
+    assert "Версия: `2.3.1.5400`" in readme
+    assert "GameSnapshot: `sha256:" in readme
     assert (output / "sources/res/scripts/client/App.py").read_bytes() == (
         b"SOURCE = 'english'\n"
     )
@@ -159,6 +176,9 @@ def test_lesta_projection_uses_base_and_ignores_locale_layers(tmp_path: Path) ->
     )
     assert (output / "sources/res/text/lesta.po").is_file()
     assert not (output / "locales").exists()
+    readme = (output / "README.md").read_text()
+    assert "Target: `mt-ru`" in readme
+    assert "У клиентов Lesta отдельного дерева\n`locales/` нет" in readme  # noqa: RUF001
     publication = json.loads((output / ".publication.json").read_text())
     assert publication["publisher"] == "lesta"
     assert "default_locale" not in publication
