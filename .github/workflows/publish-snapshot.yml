@@ -1,0 +1,98 @@
+name: Publish GameSnapshot sources
+run-name: Publish ${{ inputs.expected_profile }} · ${{ inputs.target }} · ${{ inputs.branch }} · @${{ github.actor }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      runner_label:
+        description: Unique label of the JIT runner reserved for this publication
+        required: true
+        type: string
+      snapshot_path:
+        description: Absolute path to the sealed GameSnapshot on the runner host
+        required: true
+        type: string
+      expected_snapshot_id:
+        description: GameSnapshot identity returned by the builder
+        required: true
+        type: string
+      expected_descriptor_sha256:
+        description: SHA-256 of snapshot.json returned by the builder
+        required: true
+        type: string
+      expected_profile:
+        description: Snapshot build profile
+        required: true
+        type: choice
+        options:
+          - full
+          - light
+      target:
+        description: Configured game target
+        required: true
+        type: string
+      branch:
+        description: Pure-data branch to update
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wot-src-${{ inputs.branch }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Publish ${{ inputs.target }} to ${{ inputs.branch }}
+    runs-on:
+      - self-hosted
+      - ${{ inputs.runner_label }}
+    timeout-minutes: 60
+    outputs:
+      commit_sha: ${{ steps.publish.outputs.commit_sha }}
+      publication_state: ${{ steps.publish.outputs.publication_state }}
+      version_name: ${{ steps.publish.outputs.version_name }}
+    steps:
+      - name: Check out publisher from the service branch
+        uses: actions/checkout@v7.0.1
+        with:
+          ref: main
+
+      - name: Set up Python and uv
+        uses: astral-sh/setup-uv@v10.0.1
+        with:
+          version: "0.11.28"
+          python-version: "3.13.14"
+
+      - name: Install publisher
+        shell: bash
+        run: uv sync --frozen --no-dev
+
+      - name: Configure data-branch commit identity
+        shell: bash
+        run: |
+          git config user.name "wotstat snapshot publisher"
+          git config user.email "snapshot-publisher@users.noreply.github.com"
+
+      - name: Verify, project, commit and push
+        id: publish
+        shell: bash
+        env:
+          DATA_BRANCH: ${{ inputs.branch }}
+          DESCRIPTOR_SHA256: ${{ inputs.expected_descriptor_sha256 }}
+          SNAPSHOT_ID: ${{ inputs.expected_snapshot_id }}
+          SNAPSHOT_PATH: ${{ inputs.snapshot_path }}
+          SNAPSHOT_PROFILE: ${{ inputs.expected_profile }}
+          TARGET: ${{ inputs.target }}
+        run: |
+          set -Eeuo pipefail
+          uv run --no-sync wot-src-publisher publish \
+            --repository "${GITHUB_WORKSPACE}" \
+            --snapshot "${SNAPSHOT_PATH}" \
+            --target "${TARGET}" \
+            --branch "${DATA_BRANCH}" \
+            --expected-snapshot-id "${SNAPSHOT_ID}" \
+            --expected-descriptor-sha256 "${DESCRIPTOR_SHA256}" \
+            --expected-profile "${SNAPSHOT_PROFILE}"

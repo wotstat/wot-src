@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "targets": {
+    "mt-public-test": {
+      "data_branch": "mt-public-test",
+      "publisher": "lesta"
+    },
+    "mt-ru": {
+      "data_branch": "mt-ru",
+      "publisher": "lesta"
+    },
+    "wot-asia": {
+      "data_branch": "wot-asia",
+      "publisher": "wargaming"
+    },
+    "wot-cn": {
+      "data_branch": "wot-cn",
+      "publisher": "qihoo"
+    },
+    "wot-common-test": {
+      "data_branch": "wot-common-test",
+      "publisher": "wargaming"
+    },
+    "wot-eu": {
+      "data_branch": "wot-eu",
+      "default_locale": "EN",
+      "publisher": "wargaming"
+    },
+    "wot-na": {
+      "data_branch": "wot-na",
+      "publisher": "wargaming"
+    }
+  }
+}
