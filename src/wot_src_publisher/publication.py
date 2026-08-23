@@ -8,6 +8,7 @@ import shutil
 import stat
 import subprocess
 import tempfile
+import xml.etree.ElementTree as ElementTree
 from dataclasses import dataclass
 from pathlib import Path, PurePosixPath
 from typing import Any
@@ -15,6 +16,7 @@ from typing import Any
 SHA256_RE = re.compile(r"^[a-f0-9]{64}$")
 SNAPSHOT_ID_RE = re.compile(r"^sha256:[a-f0-9]{64}$")
 LANGUAGE_RE = re.compile(r"^[A-Z]{2}(?:_[A-Z]{2})?$")
+COMMIT_VERSION_RE = re.compile(r"^v\.[0-9]+(?:\.[0-9]+){3} #[0-9]+$")
 SOURCE_SUFFIXES = frozenset({".po", ".py", ".xml"})
 GAMEFACE_PREFIX = "res/gui/gameface/"
 MANIFEST_NAMES = ("files", "actionscript", "stubs", "packages", "conflicts")
@@ -94,6 +96,22 @@ def _canonical_json(value: object) -> bytes:
         )
     except (TypeError, ValueError) as error:
         raise PublicationError(f"document is not canonical JSON: {error}") from error
+
+
+def _pretty_json(value: object) -> bytes:
+    try:
+        return (
+            json.dumps(
+                value,
+                allow_nan=False,
+                ensure_ascii=False,
+                indent=2,
+                sort_keys=True,
+            ).encode("utf-8")
+            + b"\n"
+        )
+    except (TypeError, ValueError) as error:
+        raise PublicationError(f"document cannot be encoded as JSON: {error}") from error
 
 
 def _sha256_bytes(value: bytes) -> str:
@@ -395,6 +413,23 @@ def _assert_no_collisions(paths: list[str]) -> None:
         seen[folded] = path
 
 
+def _commit_subject(source_map: dict[str, PayloadFile]) -> str:
+    candidates = [
+        item for path, item in source_map.items() if path.casefold() == "version.xml"
+    ]
+    if len(candidates) != 1:
+        raise PublicationError("projected sources must contain exactly one root version.xml")
+    try:
+        root = ElementTree.fromstring(candidates[0].source.read_bytes())
+    except (OSError, ElementTree.ParseError) as error:
+        raise PublicationError(f"cannot parse root version.xml: {error}") from error
+    version = root.find("version")
+    subject = " ".join(version.text.split()) if version is not None and version.text else ""
+    if not COMMIT_VERSION_RE.fullmatch(subject):
+        raise PublicationError(f"root version.xml has an invalid commit version: {subject!r}")
+    return subject
+
+
 def _data_readme_intro() -> str:
     region_rows = "\n".join(
         f"| {client} | [`{data_branch}`]({REPOSITORY_URL}/tree/{data_branch}) |"
@@ -413,8 +448,8 @@ def _data_readme_intro() -> str:
 {region_rows}
 
 Каждая production data-ветка начинается с bootstrap commit `init`, содержащего этот README. Каждый
-следующий commit соответствует одной версии клиента; точный номер версии записан в сообщении commit
-и в `.version_name`.
+следующий commit соответствует одной версии клиента: сообщение берётся из `sources/version.xml`
+в формате `v.2.3.1.0 #903`, а точный release name записывается в `.version_name`.
 
 ## Структура data-ветки
 
@@ -608,6 +643,7 @@ def project_snapshot(
             _copy(item, temporary, relative)
 
         release_name = _string(source.get("release_name"), label="snapshot release name")
+        commit_subject = _commit_subject(source_map)
         (temporary / "README.md").write_text(
             _data_readme(
                 target=target,
@@ -624,6 +660,7 @@ def project_snapshot(
             "branch": branch,
             "build_profile": expected_profile,
             "client_type": source.get("client_type"),
+            "commit_subject": commit_subject,
             "counts": {
                 "locales": {language: len(items) for language, items in locale_files.items()},
                 "sources": len(source_map),
@@ -643,7 +680,7 @@ def project_snapshot(
         }
         if layered_publisher:
             publication["default_locale"] = default_locale
-        (temporary / ".publication.json").write_bytes(_canonical_json(publication))
+        (temporary / ".publication.json").write_bytes(_pretty_json(publication))
         os.replace(temporary, output)
         return publication
     except Exception:
@@ -808,6 +845,9 @@ def publish_snapshot(
                 )
             _validate_bootstrap_branch(worktree)
         release_name = _string(publication.get("version_name"), label="publication version")
+        commit_subject = _string(
+            publication.get("commit_subject"), label="publication commit subject"
+        )
         if existing is not None:
             existing_snapshot_id = existing.get("snapshot_id")
             existing_version = existing.get("version_name")
@@ -839,9 +879,11 @@ def publish_snapshot(
             raise PublicationError("new snapshot produced no data-tree changes")
         if branch_exists:
             subjects = _run_git(worktree, "log", "--format=%s").stdout.splitlines()
-            if release_name in subjects:
-                raise PublicationError(f"version {release_name} already exists in branch history")
-        _run_git(worktree, "commit", "--message", release_name)
+            if commit_subject in subjects:
+                raise PublicationError(
+                    f"commit version {commit_subject} already exists in branch history"
+                )
+        _run_git(worktree, "commit", "--message", commit_subject)
         commit_sha = _run_git(worktree, "rev-parse", "HEAD").stdout.strip()
         _run_git(worktree, "push", "origin", f"HEAD:{remote_ref}")
         return {

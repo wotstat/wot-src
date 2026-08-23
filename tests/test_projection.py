@@ -9,6 +9,10 @@ from pathlib import Path
 from snapshot_fixture import create_snapshot
 
 ROOT = Path(__file__).parents[1]
+VERSION_XML = b"""<version.xml>
+  <version> v.2.3.1.0 #903 </version>
+</version.xml>
+"""
 
 
 def _project(
@@ -63,6 +67,7 @@ def test_wargaming_projection_applies_default_locale_and_keeps_all_locales(
         release_name="2.3.1.5400",
         base_files={
             "Licenses.txt": b"licenses\n",
+            "version.xml": VERSION_XML,
             "res/config/base.xml": b"<base/>\n",
             "res/gui/gameface/app.js": b"console.log('base')\n",
             "res/gui/gameface/assets/raw.bin": b"\x00\x01",
@@ -133,12 +138,16 @@ def test_wargaming_projection_applies_default_locale_and_keeps_all_locales(
     assert (output / "stubs/manifest.json").is_file()
     assert (output / "stubs/py.typed").is_file()
 
-    publication = json.loads((output / ".publication.json").read_text())
+    publication_text = (output / ".publication.json").read_text()
+    assert publication_text.startswith('{\n  "branch": "test/light-wot-eu",\n')
+    assert publication_text.endswith("\n")
+    publication = json.loads(publication_text)
     assert publication["snapshot_id"] == snapshot_id
     assert publication["descriptor_sha256"] == descriptor_sha256
     assert publication["build_profile"] == "light"
     assert publication["default_locale"] == "EN"
     assert publication["branch"] == "test/light-wot-eu"
+    assert publication["commit_subject"] == "v.2.3.1.0 #903"
 
 
 def test_lesta_projection_uses_base_and_ignores_locale_layers(tmp_path: Path) -> None:
@@ -150,6 +159,10 @@ def test_lesta_projection_uses_base_and_ignores_locale_layers(tmp_path: Path) ->
         build_profile="light",
         release_name="1.37.0.4001",
         base_files={
+            "version.xml": b"""<version.xml>
+  <version> v.1.37.0.0 #4001 </version>
+</version.xml>
+""",
             "res/gui/gameface/index.html": b"<html></html>\n",
             "res/scripts/client/App.py": b"SOURCE = 'lesta-base'\n",
             "res/text/lesta.po": b"msgid \"base\"\n",

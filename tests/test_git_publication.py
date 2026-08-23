@@ -11,6 +11,10 @@ from snapshot_fixture import create_snapshot
 from wot_src_publisher.publication import render_bootstrap_readme
 
 ROOT = Path(__file__).parents[1]
+VERSION_XML = b"""<version.xml>
+  <version> v.2.3.1.0 #903 </version>
+</version.xml>
+"""
 
 
 def _git(*arguments: str, cwd: Path | None = None) -> str:
@@ -90,6 +94,7 @@ def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) ->
         build_profile="light",
         release_name="2.3.1.5400",
         base_files={
+            "version.xml": VERSION_XML,
             "res/gui/gameface/index.html": b"<html></html>\n",
             "res/scripts/client/App.py": b"SOURCE = 'base'\n",
         },
@@ -122,7 +127,7 @@ def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) ->
         "-1",
         "--format=%s",
         "refs/heads/test/light-wot-eu",
-    ) == "2.3.1.5400"
+    ) == "v.2.3.1.0 #903"
     assert _git(
         "--git-dir",
         str(remote),
@@ -192,6 +197,7 @@ def test_publish_continues_a_valid_production_init_branch(tmp_path: Path) -> Non
         build_profile="full",
         release_name="2.3.1.5400",
         base_files={
+            "version.xml": VERSION_XML,
             "res/gui/gameface/index.html": b"<html></html>\n",
             "res/scripts/client/App.py": b"SOURCE = 'base'\n",
         },
@@ -216,7 +222,7 @@ def test_publish_continues_a_valid_production_init_branch(tmp_path: Path) -> Non
     ) == "2"
     assert _git(
         "--git-dir", str(remote), "log", "--format=%s", "refs/heads/wot-eu"
-    ).splitlines() == ["2.3.1.5400", "init"]
+    ).splitlines() == ["v.2.3.1.0 #903", "init"]
 
     data_checkout = tmp_path / "production-checkout"
     _git("clone", "--branch", "wot-eu", str(remote), str(data_checkout))

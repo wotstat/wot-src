@@ -18,8 +18,8 @@
 | Мир танков — Public Test | [`mt-public-test`](https://github.com/wotstat/wot-src/tree/mt-public-test) |
 
 Каждая production data-ветка начинается с bootstrap commit `init`, содержащего этот README. Каждый
-следующий commit соответствует одной версии клиента; точный номер версии записан в сообщении commit
-и в `.version_name`.
+следующий commit соответствует одной версии клиента: сообщение берётся из `sources/version.xml`
+в формате `v.2.3.1.0 #903`, а точный release name записывается в `.version_name`.
 
 ## Структура data-ветки
 
@@ -59,8 +59,8 @@ Runner для builder и runner для `wot-src` подготавливаютс�
 Оркестратор вызывает workflow [`publish-snapshot.yml`](.github/workflows/publish-snapshot.yml)
 только из служебной ветки `main`. Publisher независимо проверяет canonical descriptor, маркер
 `READY`, snapshot identity, manifest hashes, payload hashes и полное manifest coverage. Затем он
-проецирует только публичные данные, создаёт commit с сообщением из `.version_name` и отправляет его
-в ветку целевого региона. История data-ветки загружается как commit-only partial fetch; payload
+проецирует только публичные данные, создаёт commit с версией из `sources/version.xml` и отправляет
+его в ветку целевого региона. История data-ветки загружается как commit-only partial fetch; payload
 предыдущих версий не скачивается, а новый Git tree строится напрямую из локального GameSnapshot.
 
 Production-ветки принимают только `full` snapshot. Light-прогоны публикуются во временные ветки
