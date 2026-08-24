@@ -73,10 +73,11 @@ Production-ветки принимают только `full` snapshot. Light-п�
 
 Если суммарный размер изменённых Git blobs превышает 1 ГБ, publisher загружает их порциями не
 более 1 ГБ как цепочку служебных commits, начинающуюся от текущей data-версии, через уникальную
-временную ветку `publication-staging/...`. Пока временный ref удерживает blobs, publisher через
-GitHub Git Database API собирает итоговый tree из их object IDs, проверяет его точное совпадение с
-локальным tree, создаёт один version commit и без force обновляет production-ref. Временный ref
-удаляется и при успехе, и при ошибке; служебные commits не попадают в production-историю.
+временную ветку `publication-staging/...`. Каждый commit кумулятивно дополняет tree следующей
+порцией; tree последнего commit должен точно совпасть с локальным publication tree. Затем publisher
+через GitHub Git Database API создаёт на уже загруженном tree один version commit и без force
+обновляет production-ref. Временный ref удаляется и при успехе, и при ошибке; служебные commits не
+попадают в production-историю.
 Отдельный файл по-прежнему не может превышать лимит GitHub 100 МиБ.
 
 ## Служебная ветка `main`

@@ -183,7 +183,7 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
     monkeypatch.setattr(publication_module, "OBJECT_STAGING_THRESHOLD_BYTES", 1)
     monkeypatch.setattr(publication_module, "OBJECT_STAGING_BATCH_BYTES", 3_500)
     streamed_git_calls: list[tuple[str, ...]] = []
-    github_finalize_calls: list[tuple[str, bool, str, tuple[str, ...]]] = []
+    github_finalize_calls: list[tuple[str, bool, str, str]] = []
     original_run_git_streaming = publication_module._run_git_streaming
 
     def record_streamed_git(worktree: Path, *arguments: str) -> subprocess.CompletedProcess[str]:
@@ -198,13 +198,10 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
         branch: str,
         branch_exists: bool,
         commit_sha: str,
-        changed_files: list[str],
-        blobs: tuple[publication_module._GitBlob, ...],
+        tree_sha: str,
     ) -> str:
-        github_finalize_calls.append(
-            (branch, branch_exists, commit_sha, tuple(changed_files))
-        )
-        assert {blob.path for blob in blobs}.issubset(changed_files)
+        github_finalize_calls.append((branch, branch_exists, commit_sha, tree_sha))
+        assert tree_sha == _git("rev-parse", f"{commit_sha}^{{tree}}", cwd=worktree)
         _git("--git-dir", str(remote), "fetch", str(worktree), commit_sha)
         ref = f"refs/heads/{branch}"
         if branch_exists:
@@ -282,25 +279,21 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
     assert subjects == (["2.3.1.0 #903", "init"] if bootstrap else ["2.3.1.0 #903"])
 
 
-def test_github_api_finalization_builds_tree_commit_and_fast_forward_ref(
+def test_github_api_finalization_creates_commit_and_fast_forward_ref(
     monkeypatch: pytest.MonkeyPatch,
     tmp_path: Path,
 ) -> None:
     repository, _remote = _service_repository(tmp_path)
     parent = _git("rev-parse", "HEAD", cwd=repository)
-    parent_tree = _git("rev-parse", "HEAD^{tree}", cwd=repository)
     (repository / "README.md").unlink()
     (repository / "a.txt").write_text("a")
     (repository / "b.txt").write_text("b")
     _git("add", "--all", cwd=repository)
-    changed_files = ["README.md", "a.txt", "b.txt"]
-    blobs = publication_module._changed_git_blobs(repository, changed_files)
     _git("commit", "--message", "publication", cwd=repository)
     commit_sha = _git("rev-parse", "HEAD", cwd=repository)
     expected_tree = _git("rev-parse", "HEAD^{tree}", cwd=repository)
     monkeypatch.setenv("PUBLISHER_GITHUB_REPOSITORY", "wotstat/wot-src")
     monkeypatch.setenv("PUBLISHER_GITHUB_TOKEN", "test-token")
-    monkeypatch.setattr(publication_module, "GITHUB_TREE_BATCH_ENTRIES", 2)
     calls: list[tuple[str, str, dict[str, object] | None]] = []
 
     def fake_api_request(
@@ -314,9 +307,6 @@ def test_github_api_finalization_builds_tree_commit_and_fast_forward_ref(
         assert api_repository == "wotstat/wot-src"
         assert token == "test-token"
         calls.append((method, path, payload))
-        if path == "git/trees":
-            tree_calls = sum(call_path == "git/trees" for _method, call_path, _body in calls)
-            return {"sha": "a" * 40 if tree_calls == 1 else expected_tree}
         if path == "git/commits":
             return {"sha": commit_sha}
         return {"object": {"sha": commit_sha}}
@@ -328,22 +318,16 @@ def test_github_api_finalization_builds_tree_commit_and_fast_forward_ref(
         branch="wot-eu",
         branch_exists=True,
         commit_sha=commit_sha,
-        changed_files=changed_files,
-        blobs=blobs,
+        tree_sha=expected_tree,
     )
 
     assert result == commit_sha
-    first_tree = calls[0][2]
-    second_tree = calls[1][2]
-    assert first_tree is not None and first_tree["base_tree"] == parent_tree
-    assert first_tree["tree"][0] == {"path": "README.md", "sha": None}
-    assert second_tree is not None and second_tree["base_tree"] == "a" * 40
-    commit_call = calls[2]
+    commit_call = calls[0]
     assert commit_call[0:2] == ("POST", "git/commits")
     assert commit_call[2] is not None
     assert commit_call[2]["tree"] == expected_tree
     assert commit_call[2]["parents"] == [parent]
-    assert calls[3] == (
+    assert calls[1] == (
         "PATCH",
         "git/refs/heads/wot-eu",
         {"sha": commit_sha, "force": False},

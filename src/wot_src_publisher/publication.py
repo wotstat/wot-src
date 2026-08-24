@@ -31,7 +31,6 @@ REPOSITORY_URL = "https://github.com/wotstat/wot-src"
 OBJECT_STAGING_THRESHOLD_BYTES = 1_000_000_000
 OBJECT_STAGING_BATCH_BYTES = 1_000_000_000
 GITHUB_MAX_BLOB_BYTES = 100 * 1024 * 1024
-GITHUB_TREE_BATCH_ENTRIES = 5_000
 GITHUB_API_VERSION = "2022-11-28"
 GITHUB_REPOSITORY_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
 LEGACY_BOOTSTRAP_README_SHA256S = frozenset(
@@ -150,7 +149,7 @@ class _GitBlob:
 @dataclass(frozen=True, slots=True)
 class _StagedObjects:
     remote_ref: str
-    blobs: tuple[_GitBlob, ...]
+    tree_sha: str
 
 
 def _run_git(
@@ -360,8 +359,7 @@ def _publish_large_commit_via_github_api(
     branch: str,
     branch_exists: bool,
     commit_sha: str,
-    changed_files: Sequence[str],
-    blobs: Sequence[_GitBlob],
+    tree_sha: str,
 ) -> str:
     repository, token = _github_api_credentials()
     parent_result = _run_git(
@@ -374,77 +372,22 @@ def _publish_large_commit_via_github_api(
     parent = parent_result.stdout.strip() if parent_result.returncode == 0 else None
     if branch_exists != (parent is not None):
         raise PublicationError("local publication parent does not match remote branch state")
-    base_tree = (
-        _run_git(worktree, "rev-parse", f"{parent}^{{tree}}").stdout.strip()
-        if parent is not None
-        else None
-    )
     expected_tree = _run_git(
         worktree, "rev-parse", f"{commit_sha}^{{tree}}"
     ).stdout.strip()
-    blob_by_path = {blob.path: blob for blob in blobs}
-    deleted_paths = sorted(set(changed_files) - set(blob_by_path))
-    if base_tree is None and deleted_paths:
+    if tree_sha != expected_tree:
         raise PublicationError(
-            f"new data branch unexpectedly deletes a path: {deleted_paths[0]}"
+            "staged Git tree does not match the locally verified publication tree"
         )
-    entries: list[dict[str, object]] = [
-        {"path": path, "sha": None} for path in deleted_paths
-    ]
-    entries.extend(
-        {
-            "path": blob.path,
-            "mode": blob.mode,
-            "type": "blob",
-            "sha": blob.object_id,
-        }
-        for blob in sorted(blobs, key=lambda item: item.path)
-    )
-    if set(blob_by_path) - set(changed_files):
-        raise PublicationError("staged Git blob set does not match changed publication paths")
-    if not entries:
-        raise PublicationError("large publication has no changed Git tree entries")
-
-    total_batches = (len(entries) + GITHUB_TREE_BATCH_ENTRIES - 1) // GITHUB_TREE_BATCH_ENTRIES
     _progress(
         "github-finalize",
         "started",
         repository=repository,
         branch=branch,
-        files=len(entries),
-        tree_batches=total_batches,
+        tree=tree_sha[:12],
         provisional_commit=commit_sha[:12],
     )
-    for batch_number, offset in enumerate(
-        range(0, len(entries), GITHUB_TREE_BATCH_ENTRIES), start=1
-    ):
-        batch = entries[offset : offset + GITHUB_TREE_BATCH_ENTRIES]
-        payload: dict[str, object] = {"tree": batch}
-        if base_tree is not None:
-            payload["base_tree"] = base_tree
-        response = _github_api_request(
-            repository,
-            token,
-            "POST",
-            "git/trees",
-            payload,
-        )
-        if response.get("truncated") is True:
-            raise PublicationError("GitHub API truncated a publication tree response")
-        base_tree = _required_git_object_id(response, label="tree")
-        _progress(
-            "github-finalize",
-            "tree_batch_completed",
-            batch=batch_number,
-            batches=total_batches,
-            files=len(batch),
-            tree=base_tree[:12],
-        )
-    if base_tree != expected_tree:
-        raise PublicationError(
-            "GitHub API final tree does not match the locally verified publication tree"
-        )
-    _progress("github-finalize", "tree_completed", tree=base_tree[:12])
+    _progress("github-finalize", "tree_verified", tree=tree_sha[:12])
 
     identity = _run_git(
         worktree,
@@ -472,7 +415,7 @@ def _publish_large_commit_via_github_api(
     ).stdout.rstrip("\n")
     commit_payload: dict[str, object] = {
         "message": message,
-        "tree": base_tree,
+        "tree": tree_sha,
         "parents": [parent] if parent is not None else [],
         "author": {"name": author_name, "email": author_email, "date": author_date},
         "committer": {
@@ -724,9 +667,18 @@ def _prestage_large_git_objects(
                 f"publication-staging-{commit_sha[:12]}",
             )
             _run_git(staging_worktree, "read-tree", "--empty")
+        deleted_paths = sorted(set(changed_files) - {blob.path for blob in blobs})
+        if deleted_paths:
+            _run_git(
+                staging_worktree,
+                "update-index",
+                "--force-remove",
+                "-z",
+                "--stdin",
+                input_text="".join(f"{path}\0" for path in deleted_paths),
+            )
         for batch_number, batch in enumerate(batches, start=1):
             batch_bytes = sum(blob.size for blob in batch)
-            _run_git(staging_worktree, "read-tree", "--empty")
             index_info = "".join(
                 f"{blob.mode} {blob.object_id}\t{blob.path}\0" for blob in batch
             )
@@ -757,8 +709,23 @@ def _prestage_large_git_objects(
                 bytes=batch_bytes,
                 commit=staging_commit[:12],
             )
-        _progress("stage-objects", "completed", remote_ref=remote_ref)
-        yield _StagedObjects(remote_ref=remote_ref, blobs=blobs)
+        staging_tree = _run_git(
+            staging_worktree, "rev-parse", "HEAD^{tree}"
+        ).stdout.strip()
+        expected_tree = _run_git(
+            publication_worktree, "rev-parse", f"{commit_sha}^{{tree}}"
+        ).stdout.strip()
+        if staging_tree != expected_tree:
+            raise PublicationError(
+                "cumulative staging tree does not match the publication tree"
+            )
+        _progress(
+            "stage-objects",
+            "completed",
+            remote_ref=remote_ref,
+            tree=staging_tree[:12],
+        )
+        yield _StagedObjects(remote_ref=remote_ref, tree_sha=staging_tree)
     finally:
         if pushed_ref:
             _delete_remote_ref(repository, remote_ref)
@@ -1756,8 +1723,7 @@ def publish_snapshot(
                         branch=branch,
                         branch_exists=branch_exists,
                         commit_sha=commit_sha,
-                        changed_files=changed_files,
-                        blobs=staged_objects.blobs,
+                        tree_sha=staged_objects.tree_sha,
                     )
                 except Exception:
                     _progress("github-finalize", "failed", branch=branch)
