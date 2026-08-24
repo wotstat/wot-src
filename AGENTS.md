@@ -3,8 +3,8 @@
 ## Назначение репозитория
 
 `wot-src` хранит publisher-код в `main` и чистые исходники/текстовые данные клиентов в отдельных
-региональных ветках. Lifecycle GitHub Actions job принадлежит `game-unpack-pipeline`: оркестратор
-checkout'ит этот репозиторий по полному commit SHA и вызывает `wot-src-publisher publish`.
+региональных ветках. Репозиторий владеет reusable workflow `.github/workflows/publish-snapshot.yml`;
+`game-unpack-pipeline` вызывает его по полному commit SHA на выделенном JIT runner.
 
 Перед изменением Git-транспорта полностью прочитать
 [`docs/publication-transport.md`](docs/publication-transport.md). В нём отделены обязательные
@@ -12,9 +12,10 @@ checkout'ит этот репозиторий по полному commit SHA и 
 
 ## Интерфейс publisher
 
-Внешний интерфейс — CLI `project`/`publish`, формат `GameSnapshot`, `config/targets.json`, результат
-в stdout/GitHub outputs и наблюдаемый результат в data-ветке. Приватные функции, dataclass'ы и их
-разбиение интерфейсом не являются: их можно объединять, удалять или переписывать.
+Внешний интерфейс — reusable workflow, CLI `publish`, формат `GameSnapshot`, `config/targets.json`,
+результат в stdout/GitHub outputs и наблюдаемый результат в data-ветке. Приватные функции,
+dataclass'ы и внутренняя функция проекции интерфейсом не являются: их можно объединять, удалять или
+переписывать.
 
 ## Обязательные инварианты
 
@@ -22,7 +23,8 @@ checkout'ит этот репозиторий по полному commit SHA и 
   payload hashes, полное manifest coverage.
 - Правила проекции `sources`, locale layers, AS3, Gameface и stubs описаны в README и защищены
   projection tests; не смешивать их с Git transport.
-- Production-ветка принимает только `full`, light публикуется в `test/light-<target>`.
+- Ветка выводится только из target config. Отсутствующая ветка создаётся первой публикацией;
+  существующая без `.publication.json` не принимается.
 - История существующей data-ветки читается partial fetch без загрузки payload прошлых версий.
 - Малое изменение публикуется одним обычным push. Изменённые Git blobs суммарно больше 1 ГБ
   проходят bounded cumulative staging и GitHub API finalization, описанные в transport-документе.
@@ -32,13 +34,11 @@ checkout'ит этот репозиторий по полному commit SHA и 
 - Неопределённый результат сетевой операции разрешается чтением remote state. Нельзя слепо
   повторять потенциально уже применённое обновление.
 
-## Legacy и упрощение
+## Жизненный цикл веток и упрощение
 
-`LEGACY_BOOTSTRAP_README_SHA256S` — настоящая обратная совместимость, а не часть большого Git
-транспорта. На 2026-08-24 hash
-`c0b5be60db2a12702d8f8856079d6d4098624dd663253c95c76b4b50a89896b4` всё ещё нужен четырём
-README-only production-веткам; подробный inventory находится в transport-документе. Остальные
-legacy hashes являются кандидатами на удаление после повторной проверки remote heads.
+Все старые data-ветки были намеренно удалены перед первым release. Bootstrap commits и проверка
+старых README hashes не поддерживаются. Не возвращать ручной выбор branch, light/test-ветки или
+совместимость с markerless refs.
 
 Текущая структура helper-функций, context manager и внутренних типов не священна. При cleanup
 сохранять поведение через интерфейс, а не старые абстракции. Тесты приватных helper'ов разрешено
@@ -54,7 +54,8 @@ uv run ruff check .
 uv run mypy src
 ```
 
-Если изменился CLI или Git transport, обновить pinned полный SHA в `game-unpack-pipeline`, проверить
+Если изменился workflow, CLI или Git transport, обновить pinned полный SHA в
+`game-unpack-pipeline`, проверить
 оба publisher call path и запустить там `./scripts/check.sh`. Изменение большого transport path до
 production pin требует реального full-run на workload больше порога: локальный bare Git remote не
 воспроизводит лимиты и поведение GitHub receive-pack/API.

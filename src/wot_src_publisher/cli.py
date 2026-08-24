@@ -9,7 +9,6 @@ from pathlib import Path
 
 from wot_src_publisher.publication import (
     PublicationError,
-    project_snapshot,
     publish_snapshot,
 )
 
@@ -17,10 +16,8 @@ from wot_src_publisher.publication import (
 def _add_snapshot_arguments(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--snapshot", type=Path, required=True)
     parser.add_argument("--target", required=True)
-    parser.add_argument("--branch", required=True)
     parser.add_argument("--expected-snapshot-id", required=True)
     parser.add_argument("--expected-descriptor-sha256", required=True)
-    parser.add_argument("--expected-profile", choices=("full", "light"), required=True)
     parser.add_argument("--config", type=Path, default=Path("config/targets.json"))
 
 
@@ -29,9 +26,6 @@ def _parser() -> argparse.ArgumentParser:
         description="Project a verified GameSnapshot into a wot-src data tree."
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
-    project = subparsers.add_parser("project")
-    _add_snapshot_arguments(project)
-    project.add_argument("--output", type=Path, required=True)
     publish = subparsers.add_parser("publish")
     _add_snapshot_arguments(publish)
     publish.add_argument("--repository", type=Path, default=Path.cwd())
@@ -89,19 +83,11 @@ def main(argv: Sequence[str] | None = None) -> int:
         arguments = _parser().parse_args(argv)
         common = {
             "target": arguments.target,
-            "branch": arguments.branch,
             "expected_snapshot_id": arguments.expected_snapshot_id,
             "expected_descriptor_sha256": arguments.expected_descriptor_sha256,
-            "expected_profile": arguments.expected_profile,
             "config_path": arguments.config,
         }
-        if arguments.command == "project":
-            result = project_snapshot(
-                arguments.snapshot,
-                arguments.output,
-                **common,
-            )
-        elif arguments.command == "publish":
+        if arguments.command == "publish":
             result = publish_snapshot(
                 arguments.repository,
                 arguments.snapshot,

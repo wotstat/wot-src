@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 import json
-import os
-import subprocess
-import sys
 from pathlib import Path
 
+import pytest
 from snapshot_fixture import create_snapshot
+
+from wot_src_publisher.publication import PublicationError, project_snapshot
 
 ROOT = Path(__file__).parents[1]
 VERSION_XML = b"""<version.xml>
@@ -22,36 +22,14 @@ def _project(
     target: str,
     snapshot_id: str,
     descriptor_sha256: str,
-    profile: str = "light",
-) -> subprocess.CompletedProcess[str]:
-    environment = os.environ.copy()
-    environment["PYTHONPATH"] = str(ROOT / "src")
-    return subprocess.run(
-        [
-            sys.executable,
-            "-m",
-            "wot_src_publisher",
-            "project",
-            "--snapshot",
-            str(snapshot),
-            "--output",
-            str(output),
-            "--target",
-            target,
-            "--branch",
-            f"test/light-{target}",
-            "--expected-snapshot-id",
-            snapshot_id,
-            "--expected-descriptor-sha256",
-            descriptor_sha256,
-            "--expected-profile",
-            profile,
-        ],
-        cwd=ROOT,
-        env=environment,
-        text=True,
-        capture_output=True,
-        check=False,
+) -> dict[str, object]:
+    return project_snapshot(
+        snapshot,
+        output,
+        target=target,
+        expected_snapshot_id=snapshot_id,
+        expected_descriptor_sha256=descriptor_sha256,
+        config_path=ROOT / "config/targets.json",
     )
 
 
@@ -63,7 +41,6 @@ def test_wargaming_projection_applies_default_locale_and_keeps_all_locales(
         snapshot,
         target="wot-eu",
         publisher="wargaming",
-        build_profile="light",
         release_name="2.3.1.5400",
         base_files={
             "Licenses.txt": b"licenses\n",
@@ -102,7 +79,7 @@ def test_wargaming_projection_applies_default_locale_and_keeps_all_locales(
         descriptor_sha256=descriptor_sha256,
     )
 
-    assert result.returncode == 0, result.stderr
+    assert result["branch"] == "wot-eu"
     assert (output / ".version_name").read_text() == "2.3.1.5400\n"
     readme = (output / "README.md").read_text()
     assert readme.startswith("# wot-src\n")
@@ -118,7 +95,7 @@ def test_wargaming_projection_applies_default_locale_and_keeps_all_locales(
         assert f"https://github.com/wotstat/wot-src/tree/{branch}" in readme
     assert "## Структура data-ветки" in readme
     assert "Target: `wot-eu`" in readme
-    assert "Ветка: `test/light-wot-eu`" in readme
+    assert "Ветка: `wot-eu`" in readme
     assert "Версия: `2.3.1.5400`" in readme
     assert "GameSnapshot: `sha256:" in readme
     assert (output / "sources/res/scripts/client/App.py").read_bytes() == (
@@ -139,14 +116,13 @@ def test_wargaming_projection_applies_default_locale_and_keeps_all_locales(
     assert (output / "stubs/py.typed").is_file()
 
     publication_text = (output / ".publication.json").read_text()
-    assert publication_text.startswith('{\n  "branch": "test/light-wot-eu",\n')
+    assert publication_text.startswith('{\n  "branch": "wot-eu",\n')
     assert publication_text.endswith("\n")
     publication = json.loads(publication_text)
     assert publication["snapshot_id"] == snapshot_id
     assert publication["descriptor_sha256"] == descriptor_sha256
-    assert publication["build_profile"] == "light"
     assert publication["default_locale"] == "EN"
-    assert publication["branch"] == "test/light-wot-eu"
+    assert publication["branch"] == "wot-eu"
     assert publication["commit_subject"] == "2.3.1.0 #903"
 
 
@@ -156,7 +132,6 @@ def test_lesta_projection_uses_base_and_ignores_locale_layers(tmp_path: Path) ->
         snapshot,
         target="mt-ru",
         publisher="lesta",
-        build_profile="light",
         release_name="1.37.0.4001",
         base_files={
             "version.xml": b"""<version.xml>
@@ -183,7 +158,7 @@ def test_lesta_projection_uses_base_and_ignores_locale_layers(tmp_path: Path) ->
         descriptor_sha256=descriptor_sha256,
     )
 
-    assert result.returncode == 0, result.stderr
+    assert result["branch"] == "mt-ru"
     assert (output / "sources/res/scripts/client/App.py").read_bytes() == (
         b"SOURCE = 'lesta-base'\n"
     )
@@ -197,42 +172,12 @@ def test_lesta_projection_uses_base_and_ignores_locale_layers(tmp_path: Path) ->
     assert "default_locale" not in publication
 
 
-def test_projection_rejects_profile_mismatch_before_creating_output(tmp_path: Path) -> None:
-    snapshot = tmp_path / "snapshot"
-    snapshot_id, descriptor_sha256 = create_snapshot(
-        snapshot,
-        target="wot-eu",
-        publisher="wargaming",
-        build_profile="full",
-        release_name="2.3.1.5400",
-        base_files={"res/gui/gameface/index.html": b"<html></html>\n"},
-        locale_files={"EN": {"res/scripts/client/App.py": b"SOURCE = 'english'\n"}},
-        actionscript_files={},
-        stub_files={},
-    )
-    output = tmp_path / "output"
-
-    result = _project(
-        snapshot,
-        output,
-        target="wot-eu",
-        snapshot_id=snapshot_id,
-        descriptor_sha256=descriptor_sha256,
-        profile="light",
-    )
-
-    assert result.returncode == 1
-    assert "build profile differs" in result.stderr
-    assert not output.exists()
-
-
 def test_projection_rejects_snapshot_without_base_gameface(tmp_path: Path) -> None:
     snapshot = tmp_path / "snapshot"
     snapshot_id, descriptor_sha256 = create_snapshot(
         snapshot,
         target="wot-eu",
         publisher="wargaming",
-        build_profile="light",
         release_name="2.3.1.5400",
         base_files={"res/scripts/client/App.py": b"SOURCE = 'base'\n"},
         locale_files={"EN": {"res/scripts/client/App.py": b"SOURCE = 'english'\n"}},
@@ -241,14 +186,12 @@ def test_projection_rejects_snapshot_without_base_gameface(tmp_path: Path) -> No
     )
     output = tmp_path / "output"
 
-    result = _project(
-        snapshot,
-        output,
-        target="wot-eu",
-        snapshot_id=snapshot_id,
-        descriptor_sha256=descriptor_sha256,
-    )
-
-    assert result.returncode == 1
-    assert "no base res/gui/gameface payload" in result.stderr
+    with pytest.raises(PublicationError, match="no base res/gui/gameface payload"):
+        _project(
+            snapshot,
+            output,
+            target="wot-eu",
+            snapshot_id=snapshot_id,
+            descriptor_sha256=descriptor_sha256,
+        )
     assert not output.exists()

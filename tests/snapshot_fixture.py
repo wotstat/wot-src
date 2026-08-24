@@ -22,7 +22,6 @@ def create_snapshot(
     *,
     target: str,
     publisher: str,
-    build_profile: str,
     release_name: str,
     base_files: dict[str, bytes],
     locale_files: dict[str, dict[str, bytes]],
@@ -95,7 +94,6 @@ def create_snapshot(
 
     source = {
         "api_host": "https://example.invalid/",
-        "build_profile": build_profile,
         "chain_id": "fixture-chain",
         "client_type": "sd",
         "languages": sorted(locale_files) or ["RU"],

@@ -10,7 +10,6 @@ import pytest
 from snapshot_fixture import create_snapshot
 
 import wot_src_publisher.publication as publication_module
-from wot_src_publisher.publication import render_bootstrap_readme
 
 ROOT = Path(__file__).parents[1]
 VERSION_XML = b"""<version.xml>
@@ -80,8 +79,6 @@ def _publish(
     *,
     snapshot_id: str,
     descriptor_sha256: str,
-    branch: str = "test/light-wot-eu",
-    profile: str = "light",
 ) -> subprocess.CompletedProcess[str]:
     environment = os.environ.copy()
     environment["PYTHONPATH"] = str(ROOT / "src")
@@ -97,14 +94,10 @@ def _publish(
             str(snapshot),
             "--target",
             "wot-eu",
-            "--branch",
-            branch,
             "--expected-snapshot-id",
             snapshot_id,
             "--expected-descriptor-sha256",
             descriptor_sha256,
-            "--expected-profile",
-            profile,
         ],
         cwd=ROOT,
         env=environment,
@@ -117,7 +110,6 @@ def _publish(
 def _snapshot(
     root: Path,
     *,
-    profile: str,
     created_at: str = "2026-08-24T00:00:00Z",
     source_payload: bytes = b"SOURCE = 'english'\n",
     tool_version: str = "1",
@@ -126,7 +118,6 @@ def _snapshot(
         root,
         target="wot-eu",
         publisher="wargaming",
-        build_profile=profile,
         release_name="2.3.1.5400",
         base_files={
             "version.xml": VERSION_XML,
@@ -154,32 +145,35 @@ def test_partitions_changed_blobs_below_the_push_budget() -> None:
     assert all(sum(blob.size for blob in batch) <= 100 for batch in batches)
 
 
-@pytest.mark.parametrize(
-    ("branch", "profile", "bootstrap"),
-    [
-        ("test/light-wot-eu", "light", False),
-        ("wot-eu", "full", True),
-    ],
-)
+@pytest.mark.parametrize("branch_exists", [False, True])
 def test_large_publication_prestages_blobs_and_removes_temporary_ref(
     monkeypatch: pytest.MonkeyPatch,
     tmp_path: Path,
     capsys: pytest.CaptureFixture[str],
-    branch: str,
-    profile: str,
-    bootstrap: bool,
+    branch_exists: bool,
 ) -> None:
     repository, remote = _service_repository(tmp_path)
-    if bootstrap:
+    branch = "wot-eu"
+    if branch_exists:
         _git("switch", "--orphan", branch, cwd=repository)
-        (repository / "README.md").write_text(render_bootstrap_readme())
-        _git("add", "README.md", cwd=repository)
+        (repository / "README.md").write_text("owned data branch\n")
+        (repository / ".publication.json").write_text(
+            json.dumps({"version_name": "previous"})
+        )
+        _git("add", "README.md", ".publication.json", cwd=repository)
         _git("commit", "--message", "init", cwd=repository)
         _git("push", "origin", branch, cwd=repository)
         _git("switch", "main", cwd=repository)
     incoming_push_sizes = _record_incoming_push_sizes(remote)
     snapshot = tmp_path / "snapshot"
-    snapshot_id, descriptor_sha256 = _snapshot(snapshot, profile=profile)
+    snapshot_id, descriptor_sha256 = _snapshot(
+        snapshot,
+        created_at="2026-08-24T01:00:00Z" if branch_exists else "2026-08-24T00:00:00Z",
+        source_payload=(
+            b"SOURCE = 'updated'\n" if branch_exists else b"SOURCE = 'english'\n"
+        ),
+        tool_version="2" if branch_exists else "1",
+    )
     monkeypatch.setattr(publication_module, "OBJECT_STAGING_THRESHOLD_BYTES", 1)
     monkeypatch.setattr(publication_module, "OBJECT_STAGING_BATCH_BYTES", 3_500)
     streamed_git_calls: list[tuple[str, ...]] = []
@@ -221,10 +215,8 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
         repository,
         snapshot,
         target="wot-eu",
-        branch=branch,
         expected_snapshot_id=snapshot_id,
         expected_descriptor_sha256=descriptor_sha256,
-        expected_profile=profile,
         config_path=ROOT / "config/targets.json",
     )
 
@@ -247,7 +239,7 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
     assert "publisher stage=stage-objects status=batch_completed" in captured.err
     assert "publisher stage=stage-objects status=cleanup_completed" in captured.err
     assert len(github_finalize_calls) == 1
-    assert github_finalize_calls[0][0:2] == (branch, bootstrap)
+    assert github_finalize_calls[0][0:2] == (branch, branch_exists)
     production_pushes = [
         arguments
         for arguments in streamed_git_calls
@@ -276,7 +268,11 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
     ).splitlines()
     assert subjects[0] == "2.3.1.0 #903"
     assert not any(subject.startswith("stage publication objects ") for subject in subjects)
-    assert subjects == (["2.3.1.0 #903", "init"] if bootstrap else ["2.3.1.0 #903"])
+    assert subjects == (
+        ["2.3.1.0 #903", "init"]
+        if branch_exists
+        else ["2.3.1.0 #903"]
+    )
 
 
 def test_github_api_finalization_creates_commit_and_fast_forward_ref(
@@ -341,7 +337,6 @@ def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) ->
         snapshot,
         target="wot-eu",
         publisher="wargaming",
-        build_profile="light",
         release_name="2.3.1.5400",
         base_files={
             "version.xml": VERSION_XML,
@@ -370,7 +365,7 @@ def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) ->
         str(remote),
         "rev-list",
         "--count",
-        "refs/heads/test/light-wot-eu",
+        "refs/heads/wot-eu",
     ) == "1"
     assert _git(
         "--git-dir",
@@ -378,18 +373,18 @@ def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) ->
         "log",
         "-1",
         "--format=%s",
-        "refs/heads/test/light-wot-eu",
+        "refs/heads/wot-eu",
     ) == "2.3.1.0 #903"
     assert _git(
         "--git-dir",
         str(remote),
         "rev-list",
         "--max-parents=0",
-        "refs/heads/test/light-wot-eu",
+        "refs/heads/wot-eu",
     ) == first_result["commit_sha"]
 
     data_checkout = tmp_path / "data-checkout"
-    _git("clone", "--branch", "test/light-wot-eu", str(remote), str(data_checkout))
+    _git("clone", "--branch", "wot-eu", str(remote), str(data_checkout))
     assert (data_checkout / "README.md").is_file()
     assert "https://github.com/wotstat/wot-src/tree/wot-na" in (
         data_checkout / "README.md"
@@ -413,7 +408,7 @@ def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) ->
         str(remote),
         "rev-list",
         "--count",
-        "refs/heads/test/light-wot-eu",
+        "refs/heads/wot-eu",
     ) == "1"
 
 
@@ -422,13 +417,11 @@ def test_rebuilt_same_version_with_identical_data_is_unchanged(tmp_path: Path) -
     first_snapshot = tmp_path / "first-snapshot"
     first_id, first_descriptor = _snapshot(
         first_snapshot,
-        profile="light",
         created_at="2026-08-24T00:00:00Z",
     )
     second_snapshot = tmp_path / "second-snapshot"
     second_id, second_descriptor = _snapshot(
         second_snapshot,
-        profile="light",
         created_at="2026-08-24T01:00:00Z",
         tool_version="2",
     )
@@ -456,14 +449,14 @@ def test_rebuilt_same_version_with_identical_data_is_unchanged(tmp_path: Path) -
         str(remote),
         "rev-list",
         "--count",
-        "refs/heads/test/light-wot-eu",
+        "refs/heads/wot-eu",
     ) == "1"
     stored = json.loads(
         _git(
             "--git-dir",
             str(remote),
             "show",
-            "refs/heads/test/light-wot-eu:.publication.json",
+            "refs/heads/wot-eu:.publication.json",
         )
     )
     assert stored["descriptor_sha256"] == first_descriptor
@@ -474,13 +467,11 @@ def test_same_version_with_changed_data_creates_another_commit(tmp_path: Path) -
     first_snapshot = tmp_path / "first-snapshot"
     first_id, first_descriptor = _snapshot(
         first_snapshot,
-        profile="light",
         source_payload=b"SOURCE = 'first'\n",
     )
     second_snapshot = tmp_path / "second-snapshot"
     second_id, second_descriptor = _snapshot(
         second_snapshot,
-        profile="light",
         created_at="2026-08-24T01:00:00Z",
         source_payload=b"SOURCE = 'updated'\n",
         tool_version="2",
@@ -508,63 +499,36 @@ def test_same_version_with_changed_data_creates_another_commit(tmp_path: Path) -
         str(remote),
         "rev-list",
         "--count",
-        "refs/heads/test/light-wot-eu",
+        "refs/heads/wot-eu",
     ) == "2"
     assert _git(
         "--git-dir",
         str(remote),
         "log",
         "--format=%s",
-        "refs/heads/test/light-wot-eu",
+        "refs/heads/wot-eu",
     ).splitlines() == ["2.3.1.0 #903", "2.3.1.0 #903"]
     assert _git(
         "--git-dir",
         str(remote),
         "show",
-        "refs/heads/test/light-wot-eu:sources/res/scripts/client/App.py",
+        "refs/heads/wot-eu:sources/res/scripts/client/App.py",
     ) == "SOURCE = 'updated'"
     stored = json.loads(
         _git(
             "--git-dir",
             str(remote),
             "show",
-            "refs/heads/test/light-wot-eu:.publication.json",
+            "refs/heads/wot-eu:.publication.json",
         )
     )
     assert stored["descriptor_sha256"] == second_descriptor
 
 
-def _legacy_bootstrap_readme() -> str:
-    current = render_bootstrap_readme()
-    previous = current.replace(
-        "Каждая\nпубликация завершается version commit: его сообщение строится из "  # noqa: RUF001
-        "`sources/version.xml` без префикса\n`v.` в формате `2.3.1.0 #903`, а точный release "  # noqa: RUF001
-        "name записывается в `.version_name`.\nТранспортные staging commits в историю "  # noqa: RUF001
-        "data-ветки не входят.",
-        "Каждый\nследующий commit соответствует одной версии клиента: сообщение строится из "  # noqa: RUF001
-        "`sources/version.xml`\nбез префикса `v.` в формате `2.3.1.0 #903`, а точный release name "  # noqa: RUF001
-        "записывается в `.version_name`.",
-    )
-    legacy = previous.replace("строится", "берётся").replace(
-        "без префикса `v.` в формате `2.3.1.0 #903`",
-        "в формате `v.2.3.1.0 #903`",
-    )
-    assert legacy != previous != current
-    return legacy
-
-
-@pytest.mark.parametrize(
-    "bootstrap_readme",
-    [render_bootstrap_readme(), _legacy_bootstrap_readme()],
-    ids=["current", "legacy"],
-)
-def test_publish_continues_a_valid_production_init_branch(
-    tmp_path: Path,
-    bootstrap_readme: str,
-) -> None:
+def test_publish_rejects_existing_branch_without_ownership_marker(tmp_path: Path) -> None:
     repository, remote = _service_repository(tmp_path)
     _git("switch", "--orphan", "wot-eu", cwd=repository)
-    (repository / "README.md").write_text(bootstrap_readme)
+    (repository / "README.md").write_text("unowned data branch\n")
     _git("add", "README.md", cwd=repository)
     _git("commit", "--message", "init", cwd=repository)
     _git("push", "origin", "wot-eu", cwd=repository)
@@ -590,7 +554,6 @@ def test_publish_continues_a_valid_production_init_branch(
         snapshot,
         target="wot-eu",
         publisher="wargaming",
-        build_profile="full",
         release_name="2.3.1.5400",
         base_files={
             "version.xml": VERSION_XML,
@@ -607,23 +570,16 @@ def test_publish_continues_a_valid_production_init_branch(
         snapshot,
         snapshot_id=snapshot_id,
         descriptor_sha256=descriptor_sha256,
-        branch="wot-eu",
-        profile="full",
     )
 
-    assert result.returncode == 0, result.stderr
-    assert json.loads(result.stdout)["publication_state"] == "published"
+    assert result.returncode == 1
+    assert "no .publication.json ownership marker" in result.stderr
     assert _git(
         "--git-dir", str(remote), "rev-list", "--count", "refs/heads/wot-eu"
-    ) == "2"
+    ) == "1"
     assert _git(
         "--git-dir", str(remote), "log", "--format=%s", "refs/heads/wot-eu"
-    ).splitlines() == ["2.3.1.0 #903", "init"]
-
-    data_checkout = tmp_path / "production-checkout"
-    _git("clone", "--branch", "wot-eu", str(remote), str(data_checkout))
-    assert (data_checkout / ".publication.json").is_file()
-    assert "Версия: `2.3.1.5400`" in (data_checkout / "README.md").read_text()
+    ).splitlines() == ["init"]
 
 
 def test_publisher_uses_a_commit_only_fetch_without_checking_out_old_data() -> None:

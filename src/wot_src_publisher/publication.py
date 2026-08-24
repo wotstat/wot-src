@@ -33,12 +33,6 @@ OBJECT_STAGING_BATCH_BYTES = 1_000_000_000
 GITHUB_MAX_BLOB_BYTES = 100 * 1024 * 1024
 GITHUB_API_VERSION = "2022-11-28"
 GITHUB_REPOSITORY_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
-LEGACY_BOOTSTRAP_README_SHA256S = frozenset(
-    {
-        "c0b5be60db2a12702d8f8856079d6d4098624dd663253c95c76b4b50a89896b4",
-        "fe9c7b92755ce20f3004f4ef66d3c0518b1a89253ebe9ac75c286f309155cdec",
-    }
-)
 REGION_BRANCHES = (
     ("World of Tanks — Europe", "wot-eu"),
     ("World of Tanks — North America", "wot-na"),
@@ -1007,7 +1001,6 @@ def _verify_snapshot(
     expected_snapshot_id: str,
     expected_descriptor_sha256: str,
     expected_target: str,
-    expected_profile: str,
 ) -> VerifiedSnapshot:
     root = root.absolute()
     if root.is_symlink() or not root.is_dir():
@@ -1029,8 +1022,6 @@ def _verify_snapshot(
     source = _object(descriptor.get("source"), label="snapshot source")
     if source.get("target") != expected_target:
         raise PublicationError("snapshot target differs from the requested target")
-    if source.get("build_profile") != expected_profile:
-        raise PublicationError("snapshot build profile differs from the requested profile")
     identity = {
         key: descriptor.get(key)
         for key in ("contract", "contract_version", "policies", "source", "tools")
@@ -1192,9 +1183,9 @@ def _data_readme_intro() -> str:
 | --- | --- |
 {region_rows}
 
-Каждая production data-ветка начинается с bootstrap commit `init`, содержащего этот README. Каждая
-публикация завершается version commit: его сообщение строится из `sources/version.xml` без префикса
-`v.` в формате `2.3.1.0 #903`, а точный release name записывается в `.version_name`.
+Первая публикация создаёт data-ветку сразу на version commit. Его сообщение строится из
+`sources/version.xml` без префикса `v.` в формате `2.3.1.0 #903`, а точный release name
+записывается в `.version_name`.
 Транспортные staging commits в историю data-ветки не входят.
 
 ## Структура data-ветки
@@ -1217,22 +1208,11 @@ stubs/               # полный manifest payload IDE stubs
     return readme
 
 
-def render_bootstrap_readme() -> str:
-    return f"""{_data_readme_intro()}
-
-## Статус ветки
-
-Первая версия клиента ещё не опубликована. После публикации здесь появятся данные версии и
-машиночитаемые метаданные `.publication.json`.
-"""
-
-
 def _data_readme(
     *,
     target: str,
     branch: str,
     release_name: str,
-    build_profile: str,
     publisher: str,
     snapshot_id: str,
 ) -> str:
@@ -1243,7 +1223,6 @@ def _data_readme(
 - Target: `{target}`
 - Ветка: `{branch}`
 - Версия: `{release_name}`
-- Профиль snapshot: `{build_profile}`
 - Publisher: `{publisher}`
 - GameSnapshot: `{snapshot_id}`
 
@@ -1256,38 +1235,22 @@ def project_snapshot(
     output_path: Path,
     *,
     target: str,
-    branch: str,
     expected_snapshot_id: str,
     expected_descriptor_sha256: str,
-    expected_profile: str,
     config_path: Path,
 ) -> dict[str, Any]:
     if not SNAPSHOT_ID_RE.fullmatch(expected_snapshot_id):
         raise PublicationError("expected snapshot ID is invalid")
     if not SHA256_RE.fullmatch(expected_descriptor_sha256):
         raise PublicationError("expected descriptor SHA-256 is invalid")
-    if expected_profile not in {"full", "light"}:
-        raise PublicationError("expected profile must be full or light")
-    if not branch or branch.startswith("-") or any(character.isspace() for character in branch):
-        raise PublicationError("data branch name is invalid")
     target_config = _load_target(config_path, target)
-    allowed_branches = {
-        target_config.data_branch,
-        f"test/{expected_profile}-{target}",
-    }
-    if branch not in allowed_branches:
-        raise PublicationError(
-            f"branch {branch!r} is not the configured data or test branch for {target}"
-        )
-    if branch == target_config.data_branch and expected_profile != "full":
-        raise PublicationError("a light snapshot cannot be published to a production data branch")
-    with _progress_stage("verify", target=target, profile=expected_profile) as progress:
+    branch = target_config.data_branch
+    with _progress_stage("verify", target=target) as progress:
         snapshot = _verify_snapshot(
             snapshot_path,
             expected_snapshot_id=expected_snapshot_id,
             expected_descriptor_sha256=expected_descriptor_sha256,
             expected_target=target,
-            expected_profile=expected_profile,
         )
         payload_files = (*snapshot.files, *snapshot.actionscript, *snapshot.stubs)
         progress.update(
@@ -1421,7 +1384,6 @@ def project_snapshot(
                 target=target,
                 branch=branch,
                 release_name=release_name,
-                build_profile=expected_profile,
                 publisher=publisher,
                 snapshot_id=expected_snapshot_id,
             ),
@@ -1430,7 +1392,6 @@ def project_snapshot(
         (temporary / ".version_name").write_text(f"{release_name}\n", encoding="utf-8")
         publication: dict[str, Any] = {
             "branch": branch,
-            "build_profile": expected_profile,
             "client_type": source.get("client_type"),
             "commit_subject": commit_subject,
             "counts": {
@@ -1512,33 +1473,13 @@ def _existing_publication(worktree: Path) -> dict[str, Any] | None:
     return _object(value, label="existing publication metadata")
 
 
-def _validate_bootstrap_branch(worktree: Path) -> None:
-    commit_count = _run_git(worktree, "rev-list", "--count", "HEAD").stdout.strip()
-    subject = _run_git(worktree, "log", "-1", "--format=%s").stdout.strip()
-    tracked_files = _run_git(
-        worktree, "ls-tree", "-r", "--name-only", "HEAD"
-    ).stdout.splitlines()
-    if commit_count != "1" or subject != "init" or tracked_files != ["README.md"]:
-        raise PublicationError(
-            "existing data branch is not a valid README-only init branch"
-        )
-    readme = _run_git(worktree, "show", "HEAD:README.md").stdout
-    accepted_readme_sha256s = LEGACY_BOOTSTRAP_README_SHA256S | {
-        _sha256_bytes(render_bootstrap_readme().encode())
-    }
-    if _sha256_bytes(readme.encode()) not in accepted_readme_sha256s:
-        raise PublicationError("existing data branch bootstrap README does not match")
-
-
 def publish_snapshot(
     repository_path: Path,
     snapshot_path: Path,
     *,
     target: str,
-    branch: str,
     expected_snapshot_id: str,
     expected_descriptor_sha256: str,
-    expected_profile: str,
     config_path: Path,
 ) -> dict[str, Any]:
     repository = repository_path.absolute()
@@ -1546,15 +1487,6 @@ def publish_snapshot(
         raise PublicationError(f"repository is not a directory: {repository}")
     if _run_git(repository, "rev-parse", "--is-inside-work-tree").stdout.strip() != "true":
         raise PublicationError(f"path is not a Git worktree: {repository}")
-    branch_check = subprocess.run(
-        ["git", "check-ref-format", "--branch", branch],
-        text=True,
-        capture_output=True,
-        check=False,
-    )
-    if branch_check.returncode != 0:
-        raise PublicationError(f"invalid data branch name: {branch}")
-
     temporary = Path(tempfile.mkdtemp(prefix="wot-src-publication-"))
     projected_tree = temporary / "projected"
     worktree = temporary / "worktree"
@@ -1565,12 +1497,19 @@ def publish_snapshot(
             snapshot_path,
             projected_tree,
             target=target,
-            branch=branch,
             expected_snapshot_id=expected_snapshot_id,
             expected_descriptor_sha256=expected_descriptor_sha256,
-            expected_profile=expected_profile,
             config_path=config_path,
         )
+        branch = _string(publication.get("branch"), label="publication branch")
+        branch_check = subprocess.run(
+            ["git", "check-ref-format", "--branch", branch],
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        if branch_check.returncode != 0:
+            raise PublicationError(f"invalid data branch name: {branch}")
         remote_ref = f"refs/heads/{branch}"
         with _progress_stage("inspect-remote", branch=branch) as progress:
             remote_check = _run_git(
@@ -1627,12 +1566,9 @@ def publish_snapshot(
 
             existing = _existing_publication(worktree) if branch_exists else None
             if branch_exists and existing is None:
-                target_config = _load_target(config_path, target)
-                if branch != target_config.data_branch:
-                    raise PublicationError(
-                        "existing test branch has no .publication.json ownership marker"
-                    )
-                _validate_bootstrap_branch(worktree)
+                raise PublicationError(
+                    "existing data branch has no .publication.json ownership marker"
+                )
             progress["existing_publication"] = existing is not None
         release_name = _string(publication.get("version_name"), label="publication version")
         commit_subject = _string(
@@ -1756,5 +1692,4 @@ __all__ = [
     "PublicationError",
     "project_snapshot",
     "publish_snapshot",
-    "render_bootstrap_readme",
 ]

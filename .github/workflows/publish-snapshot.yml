@@ -1,0 +1,96 @@
+name: Publish wot-src snapshot
+
+on:
+  workflow_call:
+    inputs:
+      runner_label:
+        description: Unique label of the JIT runner reserved for this publication
+        required: true
+        type: string
+      snapshot_path:
+        description: Absolute path to the sealed GameSnapshot on the runner host
+        required: true
+        type: string
+      expected_snapshot_id:
+        description: GameSnapshot identity returned by the builder
+        required: true
+        type: string
+      expected_descriptor_sha256:
+        description: SHA-256 of snapshot.json returned by the builder
+        required: true
+        type: string
+      target:
+        description: Configured game target and production data branch
+        required: true
+        type: string
+    outputs:
+      commit_sha:
+        description: Published data commit
+        value: ${{ jobs.publish.outputs.commit_sha }}
+      publication_state:
+        description: Whether the data branch changed
+        value: ${{ jobs.publish.outputs.publication_state }}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wot-src-${{ inputs.target }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Publish ${{ inputs.target }}
+    environment: selectel
+    runs-on:
+      - self-hosted
+      - ${{ inputs.runner_label }}
+    timeout-minutes: 60
+    outputs:
+      commit_sha: ${{ steps.publish.outputs.commit_sha }}
+      publication_state: ${{ steps.publish.outputs.publication_state }}
+    steps:
+      - name: Mint wot-src token
+        id: app-token
+        uses: actions/create-github-app-token@v3.2.0
+        with:
+          client-id: ${{ vars.GH_APP_CLIENT_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: wot-src
+          permission-contents: write
+
+      - name: Check out pinned publisher
+        uses: actions/checkout@v7.0.1
+        with:
+          repository: ${{ job.workflow_repository }}
+          ref: ${{ job.workflow_sha }}
+          token: ${{ steps.app-token.outputs.token }}
+          fetch-depth: 1
+
+      - name: Set up Python and uv
+        uses: astral-sh/setup-uv@v10.0.1
+        with:
+          version: "0.11.28"
+          python-version: "3.13.14"
+
+      - name: Install publisher
+        run: uv sync --frozen --no-dev
+
+      - name: Configure commit identity
+        run: |
+          git config user.name "wotstat snapshot publisher"
+          git config user.email "snapshot-publisher@users.noreply.github.com"
+
+      - name: Verify, project and publish
+        id: publish
+        env:
+          PUBLISHER_GITHUB_REPOSITORY: ${{ format('{0}/wot-src', github.repository_owner) }}
+          PUBLISHER_GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: >-
+          uv run --no-sync wot-src-publisher publish
+          --repository "${GITHUB_WORKSPACE}"
+          --snapshot "${{ inputs.snapshot_path }}"
+          --target "${{ inputs.target }}"
+          --expected-snapshot-id "${{ inputs.expected_snapshot_id }}"
+          --expected-descriptor-sha256 "${{ inputs.expected_descriptor_sha256 }}"
