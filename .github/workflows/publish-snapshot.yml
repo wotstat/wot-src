@@ -23,6 +23,10 @@ on:
         description: Configured game target and production data branch
         required: true
         type: string
+    secrets:
+      GH_APP_PRIVATE_KEY:
+        description: GitHub App private key supplied by the caller
+        required: true
     outputs:
       commit_sha:
         description: Published data commit
@@ -41,7 +45,6 @@ concurrency:
 jobs:
   publish:
     name: Publish ${{ inputs.target }}
-    environment: selectel
     runs-on:
       - self-hosted
       - ${{ inputs.runner_label }}
