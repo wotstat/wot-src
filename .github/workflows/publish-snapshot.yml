@@ -46,6 +46,8 @@ concurrency:
 jobs:
   publish:
     name: Publish ${{ inputs.target }} to ${{ inputs.branch }}
+    env:
+      PYTHONUNBUFFERED: "1"
     runs-on:
       - self-hosted
       - ${{ inputs.runner_label }}

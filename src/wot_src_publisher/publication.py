@@ -7,13 +7,18 @@ import re
 import shutil
 import stat
 import subprocess
+import sys
 import tempfile
+import time
 import xml.etree.ElementTree as ElementTree
+from collections.abc import Iterator, Sequence
+from contextlib import contextmanager
 from dataclasses import dataclass
 from pathlib import Path, PurePosixPath
 from typing import Any
 
 SHA256_RE = re.compile(r"^[a-f0-9]{64}$")
+GIT_OBJECT_ID_RE = re.compile(r"^(?:[a-f0-9]{40}|[a-f0-9]{64})$")
 SNAPSHOT_ID_RE = re.compile(r"^sha256:[a-f0-9]{64}$")
 LANGUAGE_RE = re.compile(r"^[A-Z]{2}(?:_[A-Z]{2})?$")
 VERSION_XML_COMMIT_RE = re.compile(r"^v\.[0-9]+(?:\.[0-9]+){3} #[0-9]+$")
@@ -34,6 +39,63 @@ REGION_BRANCHES = (
 
 class PublicationError(ValueError):
     """A snapshot cannot be safely projected into a data branch."""
+
+
+def _progress(stage: str, status: str, **fields: object) -> None:
+    details = " ".join(
+        f"{name}={json.dumps(value, ensure_ascii=False, separators=(',', ':'))}"
+        for name, value in fields.items()
+    )
+    suffix = f" {details}" if details else ""
+    print(f"publisher stage={stage} status={status}{suffix}", file=sys.stderr, flush=True)
+
+
+@contextmanager
+def _progress_stage(stage: str, **fields: object) -> Iterator[dict[str, object]]:
+    started_at = time.monotonic()
+    completion_fields: dict[str, object] = {}
+    _progress(stage, "started", **fields)
+    try:
+        yield completion_fields
+    except Exception:
+        _progress(
+            stage,
+            "failed",
+            elapsed_seconds=round(time.monotonic() - started_at, 3),
+        )
+        raise
+    _progress(
+        stage,
+        "completed",
+        elapsed_seconds=round(time.monotonic() - started_at, 3),
+        **completion_fields,
+    )
+
+
+class _FileProgress:
+    def __init__(self, stage: str, total: int) -> None:
+        self.stage = stage
+        self.total = total
+        self.files = 0
+        self.bytes = 0
+        self.interval = max(100, (total + 19) // 20)
+        self.next_report = min(self.interval, total)
+
+    def advance(self, size: int) -> None:
+        self.files += 1
+        self.bytes += size
+        if self.files < self.next_report:
+            return
+        percent = round(self.files * 100 / self.total, 1) if self.total else 100.0
+        _progress(
+            self.stage,
+            "in_progress",
+            files=self.files,
+            total_files=self.total,
+            bytes=self.bytes,
+            percent=percent,
+        )
+        self.next_report = min(self.total, self.next_report + self.interval)
 
 
 @dataclass(frozen=True, slots=True)
@@ -80,6 +142,161 @@ def _run_git(
             f"git {arguments[0] if arguments else 'command'} failed: {details}"
         )
     return result
+
+
+def _run_git_streaming(
+    repository: Path,
+    *arguments: str,
+) -> subprocess.CompletedProcess[str]:
+    command = ["git", "-C", str(repository), *arguments]
+    process = subprocess.Popen(
+        command,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+    )
+    if process.stdout is None:  # pragma: no cover - PIPE always creates stdout
+        raise PublicationError("could not capture git output")
+    chunks: list[str] = []
+    while chunk := os.read(process.stdout.fileno(), 65536):
+        text = chunk.decode("utf-8", errors="replace")
+        chunks.append(text)
+        sys.stderr.write(text)
+        sys.stderr.flush()
+    return subprocess.CompletedProcess(
+        command,
+        process.wait(),
+        "",
+        "".join(chunks),
+    )
+
+
+def _remote_head(repository: Path, remote_ref: str) -> str | None:
+    result = _run_git(
+        repository,
+        "ls-remote",
+        "--heads",
+        "origin",
+        remote_ref,
+        check=False,
+    )
+    if result.returncode != 0:
+        return None
+    fields = result.stdout.split()
+    if len(fields) != 2 or fields[1] != remote_ref or not GIT_OBJECT_ID_RE.fullmatch(fields[0]):
+        return None
+    return fields[0]
+
+
+def _is_retryable_push_failure(details: str) -> bool:
+    lowered = details.casefold()
+    if "pack exceeds maximum allowed size" in lowered or "file exceeds github's" in lowered:
+        return False
+    return bool(re.search(r"\bhttp 5[0-9]{2}\b", lowered)) or any(
+        marker in lowered
+        for marker in (
+            "connection reset",
+            "connection timed out",
+            "could not resolve host",
+            "failed to connect",
+            "operation timed out",
+            "remote end hung up unexpectedly",
+            "the requested url returned error: 5",
+            "unexpected disconnect",
+        )
+    )
+
+
+def _git_error_excerpt(details: str) -> str:
+    lines = [line.strip() for line in re.split(r"[\r\n]+", details) if line.strip()]
+    excerpt = " | ".join(lines[-20:])
+    excerpt = re.sub(r"https://[^@\s]+@", "https://***@", excerpt)
+    return excerpt[-4000:]
+
+
+def _git_object_stats(repository: Path) -> dict[str, int]:
+    values: dict[str, int] = {}
+    for line in _run_git(repository, "count-objects", "-v").stdout.splitlines():
+        name, separator, raw_value = line.partition(": ")
+        if separator and raw_value.isdigit():
+            values[name] = int(raw_value)
+    return {
+        "loose_objects": values.get("count", 0),
+        "loose_object_bytes": values.get("size", 0) * 1024,
+        "packs": values.get("packs", 0),
+        "packed_object_bytes": values.get("size-pack", 0) * 1024,
+    }
+
+
+def _push_commit(
+    worktree: Path,
+    remote_ref: str,
+    commit_sha: str,
+    *,
+    retry_delays: Sequence[float] = (5.0, 15.0),
+) -> None:
+    attempts = len(retry_delays) + 1
+    for attempt in range(1, attempts + 1):
+        started_at = time.monotonic()
+        _progress(
+            "push",
+            "started",
+            attempt=attempt,
+            attempts=attempts,
+            commit=commit_sha[:12],
+        )
+        result = _run_git_streaming(
+            worktree,
+            "push",
+            "--progress",
+            "origin",
+            f"HEAD:{remote_ref}",
+        )
+        elapsed_seconds = round(time.monotonic() - started_at, 3)
+        if result.returncode == 0:
+            _progress(
+                "push",
+                "completed",
+                attempt=attempt,
+                elapsed_seconds=elapsed_seconds,
+                commit=commit_sha[:12],
+            )
+            return
+
+        if _remote_head(worktree, remote_ref) == commit_sha:
+            _progress(
+                "push",
+                "completed",
+                attempt=attempt,
+                elapsed_seconds=elapsed_seconds,
+                commit=commit_sha[:12],
+                result="remote_updated_after_transport_error",
+            )
+            return
+
+        details = result.stderr.strip() or result.stdout.strip()
+        retryable = _is_retryable_push_failure(details)
+        if retryable and attempt < attempts:
+            delay = retry_delays[attempt - 1]
+            _progress(
+                "push",
+                "retrying",
+                attempt=attempt,
+                elapsed_seconds=elapsed_seconds,
+                next_attempt=attempt + 1,
+                retry_delay_seconds=delay,
+                reason="transient_git_transport_error",
+            )
+            time.sleep(delay)
+            continue
+
+        _progress(
+            "push",
+            "failed",
+            attempt=attempt,
+            elapsed_seconds=elapsed_seconds,
+            retryable=retryable,
+        )
+        raise PublicationError(f"git push failed: {_git_error_excerpt(details)}")
 
 
 def _canonical_json(value: object) -> bytes:
@@ -330,6 +547,13 @@ def _verify_snapshot(
         raise PublicationError("snapshot contains an invalid locale language")
 
     manifest_values = {name: _load_manifest(root, descriptor, name) for name in MANIFEST_NAMES}
+    payload_progress = _FileProgress(
+        "verify",
+        sum(
+            len(manifest_values[name])
+            for name in ("files", "actionscript", "stubs")
+        ),
+    )
     files: list[PayloadFile] = []
     expected_by_root: dict[str, set[str]] = {base_root: set()}
     expected_by_root.update({path: set() for path in locale_roots.values()})
@@ -360,20 +584,24 @@ def _verify_snapshot(
         seen_files.add(key)
         expected_by_root[selected_root].add(item.path)
         files.append(item)
+        payload_progress.advance(item.size)
 
-    actionscript = tuple(
-        _payload_file(
+    actionscript: list[PayloadFile] = []
+    for index, entry in enumerate(manifest_values["actionscript"], start=1):
+        item = _payload_file(
             root,
             actionscript_root,
             entry,
             label=f"ActionScript manifest entry {index}",
         )
-        for index, entry in enumerate(manifest_values["actionscript"], start=1)
-    )
-    stubs = tuple(
-        _payload_file(root, stubs_root, entry, label=f"stubs manifest entry {index}")
-        for index, entry in enumerate(manifest_values["stubs"], start=1)
-    )
+        actionscript.append(item)
+        payload_progress.advance(item.size)
+    stubs: list[PayloadFile] = []
+    for index, entry in enumerate(manifest_values["stubs"], start=1):
+        item = _payload_file(root, stubs_root, entry, label=f"stubs manifest entry {index}")
+        stubs.append(item)
+        payload_progress.advance(item.size)
+    _progress("verify", "in_progress", phase="payload_coverage")
     for payload_root, expected in expected_by_root.items():
         _verify_payload_coverage(root, payload_root, expected)
     _verify_payload_coverage(root, actionscript_root, {item.path for item in actionscript})
@@ -383,8 +611,8 @@ def _verify_snapshot(
         descriptor,
         descriptor_sha256,
         tuple(files),
-        actionscript,
-        stubs,
+        tuple(actionscript),
+        tuple(stubs),
     )
 
 
@@ -535,13 +763,19 @@ def project_snapshot(
         )
     if branch == target_config.data_branch and expected_profile != "full":
         raise PublicationError("a light snapshot cannot be published to a production data branch")
-    snapshot = _verify_snapshot(
-        snapshot_path,
-        expected_snapshot_id=expected_snapshot_id,
-        expected_descriptor_sha256=expected_descriptor_sha256,
-        expected_target=target,
-        expected_profile=expected_profile,
-    )
+    with _progress_stage("verify", target=target, profile=expected_profile) as progress:
+        snapshot = _verify_snapshot(
+            snapshot_path,
+            expected_snapshot_id=expected_snapshot_id,
+            expected_descriptor_sha256=expected_descriptor_sha256,
+            expected_target=target,
+            expected_profile=expected_profile,
+        )
+        payload_files = (*snapshot.files, *snapshot.actionscript, *snapshot.stubs)
+        progress.update(
+            files=len(payload_files),
+            bytes=sum(item.size for item in payload_files),
+        )
     source = _object(snapshot.descriptor["source"], label="snapshot source")
     publisher = _string(source.get("publisher"), label="snapshot publisher")
     if publisher != target_config.publisher:
@@ -611,6 +845,21 @@ def project_snapshot(
     output.parent.mkdir(parents=True, exist_ok=True)
     temporary = Path(tempfile.mkdtemp(prefix=f".{output.name}-", dir=output.parent))
     try:
+        projected_file_count = (
+            len(source_map)
+            + sum(len(items) for items in locale_files.values())
+            + len(gameface_files)
+            + len(actionscript_files)
+            + len(snapshot.stubs)
+        )
+        projection_progress = _FileProgress("project", projected_file_count)
+        _progress(
+            "project",
+            "started",
+            files=projected_file_count,
+            target=target,
+            branch=branch,
+        )
         output_paths = [f"sources/{path}" for path in source_map]
         output_paths.extend(
             f"locales/{language}/{item.path}"
@@ -628,19 +877,24 @@ def project_snapshot(
         for path, item in sorted(source_map.items()):
             relative = f"sources/{path}"
             _copy(item, temporary, relative)
+            projection_progress.advance(item.size)
         for language, items in locale_files.items():
             for item in items:
                 relative = f"locales/{language}/{item.path}"
                 _copy(item, temporary, relative)
+                projection_progress.advance(item.size)
         for item in gameface_files:
             relative = f"sources-gameface/{item.path[len(GAMEFACE_PREFIX):]}"
             _copy(item, temporary, relative)
+            projection_progress.advance(item.size)
         for item in actionscript_files:
             relative = f"sources-as3/{item.path}"
             _copy(item, temporary, relative)
+            projection_progress.advance(item.size)
         for item in snapshot.stubs:
             relative = f"stubs/{item.path}"
             _copy(item, temporary, relative)
+            projection_progress.advance(item.size)
 
         release_name = _string(source.get("release_name"), label="snapshot release name")
         commit_subject = _commit_subject(source_map)
@@ -682,8 +936,16 @@ def project_snapshot(
             publication["default_locale"] = default_locale
         (temporary / ".publication.json").write_bytes(_pretty_json(publication))
         os.replace(temporary, output)
+        _progress(
+            "project",
+            "completed",
+            files=projection_progress.files,
+            bytes=projection_progress.bytes,
+            counts=publication["counts"],
+        )
         return publication
     except Exception:
+        _progress("project", "failed", files=projection_progress.files)
         shutil.rmtree(temporary, ignore_errors=True)
         raise
 
@@ -788,72 +1050,87 @@ def publish_snapshot(
             config_path=config_path,
         )
         remote_ref = f"refs/heads/{branch}"
-        remote_check = _run_git(
-            repository,
-            "ls-remote",
-            "--exit-code",
-            "--heads",
-            "origin",
-            remote_ref,
-            check=False,
-        )
-        if remote_check.returncode not in {0, 2}:
-            details = remote_check.stderr.strip() or remote_check.stdout.strip()
-            raise PublicationError(f"could not inspect remote data branch: {details}")
-        branch_exists = remote_check.returncode == 0
-        if branch_exists:
-            tracking_ref = f"refs/remotes/origin/{branch}"
-            _run_git(repository, "config", "remote.origin.promisor", "true")
-            _run_git(repository, "config", "remote.origin.partialclonefilter", "tree:0")
-            _run_git(
+        with _progress_stage("inspect-remote", branch=branch) as progress:
+            remote_check = _run_git(
                 repository,
-                "fetch",
-                "--no-tags",
-                "--filter=tree:0",
+                "ls-remote",
+                "--exit-code",
+                "--heads",
                 "origin",
-                f"+{remote_ref}:{tracking_ref}",
+                remote_ref,
+                check=False,
             )
-            _run_git(
-                repository,
-                "worktree",
-                "add",
-                "--detach",
-                "--no-checkout",
-                str(worktree),
-                tracking_ref,
-            )
-        else:
-            _run_git(
-                repository,
-                "worktree",
-                "add",
-                "--detach",
-                "--no-checkout",
-                str(worktree),
-                "HEAD",
-            )
-            _run_git(worktree, "switch", "--orphan", branch)
-            _run_git(worktree, "read-tree", "--empty")
-        worktree_registered = True
+            if remote_check.returncode not in {0, 2}:
+                details = remote_check.stderr.strip() or remote_check.stdout.strip()
+                raise PublicationError(f"could not inspect remote data branch: {details}")
+            branch_exists = remote_check.returncode == 0
+            progress["branch_exists"] = branch_exists
 
-        existing = _existing_publication(worktree) if branch_exists else None
-        if branch_exists and existing is None:
-            target_config = _load_target(config_path, target)
-            if branch != target_config.data_branch:
-                raise PublicationError(
-                    "existing test branch has no .publication.json ownership marker"
+        with _progress_stage("prepare-worktree", branch=branch) as progress:
+            if branch_exists:
+                tracking_ref = f"refs/remotes/origin/{branch}"
+                _run_git(repository, "config", "remote.origin.promisor", "true")
+                _run_git(repository, "config", "remote.origin.partialclonefilter", "tree:0")
+                _run_git(
+                    repository,
+                    "fetch",
+                    "--no-tags",
+                    "--filter=tree:0",
+                    "origin",
+                    f"+{remote_ref}:{tracking_ref}",
                 )
-            _validate_bootstrap_branch(worktree)
+                _run_git(
+                    repository,
+                    "worktree",
+                    "add",
+                    "--detach",
+                    "--no-checkout",
+                    str(worktree),
+                    tracking_ref,
+                )
+                worktree_registered = True
+            else:
+                _run_git(
+                    repository,
+                    "worktree",
+                    "add",
+                    "--detach",
+                    "--no-checkout",
+                    str(worktree),
+                    "HEAD",
+                )
+                worktree_registered = True
+                _run_git(worktree, "switch", "--orphan", branch)
+                _run_git(worktree, "read-tree", "--empty")
+
+            existing = _existing_publication(worktree) if branch_exists else None
+            if branch_exists and existing is None:
+                target_config = _load_target(config_path, target)
+                if branch != target_config.data_branch:
+                    raise PublicationError(
+                        "existing test branch has no .publication.json ownership marker"
+                    )
+                _validate_bootstrap_branch(worktree)
+            progress["existing_publication"] = existing is not None
         release_name = _string(publication.get("version_name"), label="publication version")
         commit_subject = _string(
             publication.get("commit_subject"), label="publication commit subject"
         )
-        _clear_worktree(worktree)
-        _copy_tree(projected_tree, worktree)
-        _run_git(worktree, "add", "--all")
-        difference = _run_git(worktree, "diff", "--cached", "--quiet", check=False)
-        if difference.returncode not in {0, 1}:
-            raise PublicationError(f"could not compare projected data tree: {difference.stderr}")
+        with _progress_stage("stage-changes", branch=branch) as progress:
+            _clear_worktree(worktree)
+            _copy_tree(projected_tree, worktree)
+            _run_git(worktree, "add", "--all")
+            difference = _run_git(worktree, "diff", "--cached", "--quiet", check=False)
+            if difference.returncode not in {0, 1}:
+                raise PublicationError(
+                    f"could not compare projected data tree: {difference.stderr}"
+                )
+            changed_files = (
+                _run_git(worktree, "diff", "--cached", "--name-only").stdout.splitlines()
+                if difference.returncode == 1
+                else []
+            )
+            progress.update(changed=difference.returncode == 1, files=len(changed_files))
         same_version = existing is not None and existing.get("version_name") == release_name
         if same_version:
             data_difference = _run_git(
@@ -874,6 +1151,12 @@ def publish_snapshot(
                 )
             if data_difference.returncode == 0:
                 commit_sha = _run_git(worktree, "rev-parse", "HEAD").stdout.strip()
+                _progress(
+                    "publication",
+                    "completed",
+                    result="unchanged",
+                    commit=commit_sha[:12],
+                )
                 return {
                     **publication,
                     "commit_sha": commit_sha,
@@ -881,14 +1164,29 @@ def publish_snapshot(
                 }
         if difference.returncode == 0:
             commit_sha = _run_git(worktree, "rev-parse", "HEAD").stdout.strip()
+            _progress(
+                "publication",
+                "completed",
+                result="unchanged",
+                commit=commit_sha[:12],
+            )
             return {
                 **publication,
                 "commit_sha": commit_sha,
                 "publication_state": "unchanged",
             }
-        _run_git(worktree, "commit", "--message", commit_subject)
-        commit_sha = _run_git(worktree, "rev-parse", "HEAD").stdout.strip()
-        _run_git(worktree, "push", "origin", f"HEAD:{remote_ref}")
+        with _progress_stage("commit", files=len(changed_files)) as progress:
+            _run_git(worktree, "commit", "--message", commit_subject)
+            commit_sha = _run_git(worktree, "rev-parse", "HEAD").stdout.strip()
+            progress["commit"] = commit_sha[:12]
+            progress.update(_git_object_stats(worktree))
+        _push_commit(worktree, remote_ref, commit_sha)
+        _progress(
+            "publication",
+            "completed",
+            result="published",
+            commit=commit_sha[:12],
+        )
         return {
             **publication,
             "commit_sha": commit_sha,

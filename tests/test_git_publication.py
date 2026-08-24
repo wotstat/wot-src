@@ -6,8 +6,10 @@ import subprocess
 import sys
 from pathlib import Path
 
+import pytest
 from snapshot_fixture import create_snapshot
 
+import wot_src_publisher.publication as publication_module
 from wot_src_publisher.publication import render_bootstrap_readme
 
 ROOT = Path(__file__).parents[1]
@@ -138,6 +140,8 @@ def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) ->
     )
 
     assert first.returncode == 0, first.stderr
+    assert "publisher stage=verify status=started" in first.stderr
+    assert "publisher stage=push status=completed" in first.stderr
     first_result = json.loads(first.stdout)
     assert first_result["publication_state"] == "published"
     assert _git(
@@ -380,3 +384,111 @@ def test_publisher_uses_a_commit_only_fetch_without_checking_out_old_data() -> N
     assert '"--filter=tree:0"' in source
     assert '"--no-checkout"' in source
     assert '"show", "HEAD:.publication.json"' in source
+
+
+def test_push_retries_a_transient_github_http_500(
+    monkeypatch: pytest.MonkeyPatch,
+    tmp_path: Path,
+    capsys: pytest.CaptureFixture[str],
+) -> None:
+    commit_sha = "a" * 40
+    push_results = iter(
+        (
+            subprocess.CompletedProcess(
+                ["git", "push"],
+                1,
+                "",
+                "error: RPC failed; HTTP 500\nfatal: the remote end hung up unexpectedly\n",
+            ),
+            subprocess.CompletedProcess(["git", "push"], 0, "", ""),
+        )
+    )
+    push_attempts = 0
+
+    def fake_streaming_git(
+        repository: Path,
+        *arguments: str,
+    ) -> subprocess.CompletedProcess[str]:
+        nonlocal push_attempts
+        assert repository == tmp_path
+        assert arguments[0] == "push"
+        push_attempts += 1
+        return next(push_results)
+
+    def fake_run_git(
+        repository: Path,
+        *arguments: str,
+        check: bool = True,
+    ) -> subprocess.CompletedProcess[str]:
+        assert repository == tmp_path
+        assert arguments[:3] == ("ls-remote", "--heads", "origin")
+        assert not check
+        return subprocess.CompletedProcess(["git", *arguments], 2, "", "")
+
+    monkeypatch.setattr(publication_module, "_run_git_streaming", fake_streaming_git, raising=False)
+    monkeypatch.setattr(publication_module, "_run_git", fake_run_git)
+    publication_module._push_commit(
+        tmp_path,
+        "refs/heads/wot-eu",
+        commit_sha,
+        retry_delays=(0,),
+    )
+
+    assert push_attempts == 2
+    captured = capsys.readouterr()
+    assert "publisher stage=push status=retrying" in captured.err
+    assert "publisher stage=push status=completed" in captured.err
+
+
+def test_push_accepts_a_remote_update_after_the_response_disconnects(
+    monkeypatch: pytest.MonkeyPatch,
+    tmp_path: Path,
+    capsys: pytest.CaptureFixture[str],
+) -> None:
+    commit_sha = "b" * 40
+    remote_ref = "refs/heads/wot-eu"
+    push_attempts = 0
+
+    def fake_streaming_git(
+        repository: Path,
+        *arguments: str,
+    ) -> subprocess.CompletedProcess[str]:
+        nonlocal push_attempts
+        assert repository == tmp_path
+        assert arguments[0] == "push"
+        push_attempts += 1
+        return subprocess.CompletedProcess(
+            ["git", *arguments],
+            1,
+            "",
+            "fatal: the remote end hung up unexpectedly\n",
+        )
+
+    def fake_run_git(
+        repository: Path,
+        *arguments: str,
+        check: bool = True,
+    ) -> subprocess.CompletedProcess[str]:
+        assert repository == tmp_path
+        assert not check
+        return subprocess.CompletedProcess(
+            ["git", *arguments],
+            0,
+            f"{commit_sha}\t{remote_ref}\n",
+            "",
+        )
+
+    monkeypatch.setattr(publication_module, "_run_git_streaming", fake_streaming_git)
+    monkeypatch.setattr(publication_module, "_run_git", fake_run_git)
+
+    publication_module._push_commit(tmp_path, remote_ref, commit_sha, retry_delays=(0,))
+
+    assert push_attempts == 1
+    captured = capsys.readouterr()
+    assert 'result="remote_updated_after_transport_error"' in captured.err
+
+
+def test_push_does_not_retry_githubs_explicit_pack_size_rejection() -> None:
+    assert not publication_module._is_retryable_push_failure(
+        "remote: fatal: pack exceeds maximum allowed size"
+    )
