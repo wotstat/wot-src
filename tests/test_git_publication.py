@@ -84,6 +84,33 @@ def _publish(
     )
 
 
+def _snapshot(
+    root: Path,
+    *,
+    profile: str,
+    created_at: str = "2026-08-24T00:00:00Z",
+    source_payload: bytes = b"SOURCE = 'english'\n",
+    tool_version: str = "1",
+) -> tuple[str, str]:
+    return create_snapshot(
+        root,
+        target="wot-eu",
+        publisher="wargaming",
+        build_profile=profile,
+        release_name="2.3.1.5400",
+        base_files={
+            "version.xml": VERSION_XML,
+            "res/gui/gameface/index.html": b"<html></html>\n",
+            "res/scripts/client/App.py": b"SOURCE = 'base'\n",
+        },
+        locale_files={"EN": {"res/scripts/client/App.py": source_payload}},
+        actionscript_files={"base_app/scripts/App.as": b"package {}\n"},
+        stub_files={"BigWorld.pyi": b"class Player: ...\n"},
+        created_at=created_at,
+        tool_version=tool_version,
+    )
+
+
 def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) -> None:
     repository, remote = _service_repository(tmp_path)
     snapshot = tmp_path / "snapshot"
@@ -163,6 +190,123 @@ def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) ->
         "--count",
         "refs/heads/test/light-wot-eu",
     ) == "1"
+
+
+def test_rebuilt_same_version_with_identical_data_is_unchanged(tmp_path: Path) -> None:
+    repository, remote = _service_repository(tmp_path)
+    first_snapshot = tmp_path / "first-snapshot"
+    first_id, first_descriptor = _snapshot(
+        first_snapshot,
+        profile="light",
+        created_at="2026-08-24T00:00:00Z",
+    )
+    second_snapshot = tmp_path / "second-snapshot"
+    second_id, second_descriptor = _snapshot(
+        second_snapshot,
+        profile="light",
+        created_at="2026-08-24T01:00:00Z",
+        tool_version="2",
+    )
+    assert second_id != first_id
+    assert second_descriptor != first_descriptor
+
+    first = _publish(
+        repository,
+        first_snapshot,
+        snapshot_id=first_id,
+        descriptor_sha256=first_descriptor,
+    )
+    second = _publish(
+        repository,
+        second_snapshot,
+        snapshot_id=second_id,
+        descriptor_sha256=second_descriptor,
+    )
+
+    assert first.returncode == 0, first.stderr
+    assert second.returncode == 0, second.stderr
+    assert json.loads(second.stdout)["publication_state"] == "unchanged"
+    assert _git(
+        "--git-dir",
+        str(remote),
+        "rev-list",
+        "--count",
+        "refs/heads/test/light-wot-eu",
+    ) == "1"
+    stored = json.loads(
+        _git(
+            "--git-dir",
+            str(remote),
+            "show",
+            "refs/heads/test/light-wot-eu:.publication.json",
+        )
+    )
+    assert stored["descriptor_sha256"] == first_descriptor
+
+
+def test_same_version_with_changed_data_creates_another_commit(tmp_path: Path) -> None:
+    repository, remote = _service_repository(tmp_path)
+    first_snapshot = tmp_path / "first-snapshot"
+    first_id, first_descriptor = _snapshot(
+        first_snapshot,
+        profile="light",
+        source_payload=b"SOURCE = 'first'\n",
+    )
+    second_snapshot = tmp_path / "second-snapshot"
+    second_id, second_descriptor = _snapshot(
+        second_snapshot,
+        profile="light",
+        created_at="2026-08-24T01:00:00Z",
+        source_payload=b"SOURCE = 'updated'\n",
+        tool_version="2",
+    )
+    assert second_id != first_id
+
+    first = _publish(
+        repository,
+        first_snapshot,
+        snapshot_id=first_id,
+        descriptor_sha256=first_descriptor,
+    )
+    second = _publish(
+        repository,
+        second_snapshot,
+        snapshot_id=second_id,
+        descriptor_sha256=second_descriptor,
+    )
+
+    assert first.returncode == 0, first.stderr
+    assert second.returncode == 0, second.stderr
+    assert json.loads(second.stdout)["publication_state"] == "published"
+    assert _git(
+        "--git-dir",
+        str(remote),
+        "rev-list",
+        "--count",
+        "refs/heads/test/light-wot-eu",
+    ) == "2"
+    assert _git(
+        "--git-dir",
+        str(remote),
+        "log",
+        "--format=%s",
+        "refs/heads/test/light-wot-eu",
+    ).splitlines() == ["v.2.3.1.0 #903", "v.2.3.1.0 #903"]
+    assert _git(
+        "--git-dir",
+        str(remote),
+        "show",
+        "refs/heads/test/light-wot-eu:sources/res/scripts/client/App.py",
+    ) == "SOURCE = 'updated'"
+    stored = json.loads(
+        _git(
+            "--git-dir",
+            str(remote),
+            "show",
+            "refs/heads/test/light-wot-eu:.publication.json",
+        )
+    )
+    assert stored["descriptor_sha256"] == second_descriptor
 
 
 def test_publish_continues_a_valid_production_init_branch(tmp_path: Path) -> None:

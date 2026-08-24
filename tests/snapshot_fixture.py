@@ -28,6 +28,8 @@ def create_snapshot(
     locale_files: dict[str, dict[str, bytes]],
     actionscript_files: dict[str, bytes],
     stub_files: dict[str, bytes],
+    created_at: str = "2026-08-24T00:00:00Z",
+    tool_version: str = "1",
 ) -> tuple[str, str]:
     (root / "sources-as3").mkdir(parents=True, exist_ok=True)
     (root / "stubs").mkdir(parents=True, exist_ok=True)
@@ -117,7 +119,7 @@ def create_snapshot(
         name: {"name": f"fixture-{name}", "sha256": digit * 64, "version": "1"}
         for name, digit in (("readable", "1"), ("source_tree", "2"), ("vfs", "3"))
     }
-    tools = [{"name": "fixture-tool", "version": "1"}]
+    tools = [{"name": "fixture-tool", "version": tool_version}]
     identity = {
         "contract": "game-snapshot",
         "contract_version": "1.1.0",
@@ -129,7 +131,7 @@ def create_snapshot(
     descriptor = {
         "contract": "game-snapshot",
         "contract_version": "1.1.0",
-        "created_at": "2026-08-24T00:00:00Z",
+        "created_at": created_at,
         "manifests": manifests,
         "payload": {
             "actionscript_root": "sources-as3",

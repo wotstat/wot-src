@@ -848,41 +848,44 @@ def publish_snapshot(
         commit_subject = _string(
             publication.get("commit_subject"), label="publication commit subject"
         )
-        if existing is not None:
-            existing_snapshot_id = existing.get("snapshot_id")
-            existing_version = existing.get("version_name")
-            if existing_snapshot_id == expected_snapshot_id and existing_version != release_name:
-                raise PublicationError("existing snapshot ID has a different version name")
-            if existing_version == release_name and existing_snapshot_id != expected_snapshot_id:
-                raise PublicationError(
-                    f"version {release_name} is already bound to another snapshot"
-                )
-
         _clear_worktree(worktree)
         _copy_tree(projected_tree, worktree)
         _run_git(worktree, "add", "--all")
         difference = _run_git(worktree, "diff", "--cached", "--quiet", check=False)
         if difference.returncode not in {0, 1}:
             raise PublicationError(f"could not compare projected data tree: {difference.stderr}")
-        if existing is not None and existing.get("snapshot_id") == expected_snapshot_id:
-            if difference.returncode != 0:
+        same_version = existing is not None and existing.get("version_name") == release_name
+        if same_version:
+            data_difference = _run_git(
+                worktree,
+                "diff",
+                "--cached",
+                "--quiet",
+                "--",
+                ".",
+                ":(exclude)README.md",
+                ":(exclude).version_name",
+                ":(exclude).publication.json",
+                check=False,
+            )
+            if data_difference.returncode not in {0, 1}:
                 raise PublicationError(
-                    "the same snapshot now projects to a different data tree"
+                    f"could not compare projected publication data: {data_difference.stderr}"
                 )
+            if data_difference.returncode == 0:
+                commit_sha = _run_git(worktree, "rev-parse", "HEAD").stdout.strip()
+                return {
+                    **publication,
+                    "commit_sha": commit_sha,
+                    "publication_state": "unchanged",
+                }
+        if difference.returncode == 0:
             commit_sha = _run_git(worktree, "rev-parse", "HEAD").stdout.strip()
             return {
                 **publication,
                 "commit_sha": commit_sha,
                 "publication_state": "unchanged",
             }
-        if difference.returncode == 0:
-            raise PublicationError("new snapshot produced no data-tree changes")
-        if branch_exists:
-            subjects = _run_git(worktree, "log", "--format=%s").stdout.splitlines()
-            if commit_subject in subjects:
-                raise PublicationError(
-                    f"commit version {commit_subject} already exists in branch history"
-                )
         _run_git(worktree, "commit", "--message", commit_subject)
         commit_sha = _run_git(worktree, "rev-parse", "HEAD").stdout.strip()
         _run_git(worktree, "push", "origin", f"HEAD:{remote_ref}")
