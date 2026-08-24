@@ -1173,8 +1173,7 @@ def _data_readme_intro(branch: str) -> str:
     )
     readme = f"""# wot-src
 
-Публичная история читаемых исходников и текстовых данных клиентов World of Tanks и «Мира
-танков». Служебный код и GitHub Actions workflows находятся в ветке
+Публичная история читаемых исходников и текстовых данных клиентов World of Tanks и «Мира танков». Служебный publisher-код и reusable workflow находятся в ветке
 [`main`]({REPOSITORY_URL}/tree/main), а данные каждого клиента — в отдельной региональной ветке.
 
 Скачать только текущую data-ветку без истории:
@@ -1183,16 +1182,19 @@ def _data_readme_intro(branch: str) -> str:
 git clone --branch {branch} --single-branch --depth 1 {REPOSITORY_URL}.git
 ```
 
+Скачать все data-ветки без истории:
+
+```bash
+git clone --depth 1 --no-single-branch {REPOSITORY_URL}.git
+```
+
 ## Регионы
 
 | Клиент | Data-ветка |
 | --- | --- |
 {region_rows}
 
-Первая публикация создаёт data-ветку сразу на version commit. Его сообщение строится из
-`sources/version.xml` без префикса `v.` в формате `2.3.1.0 #903`, а точный release name
-записывается в `.version_name`.
-Транспортные staging commits в историю data-ветки не входят.
+Версия игры с которой снят снепшот записывается в commit сообщение и `.version_name`.
 
 ## Структура data-ветки
 
@@ -1207,9 +1209,8 @@ sources-gameface/    # содержимое base/res/gui/gameface без исх�
 stubs/               # полный manifest payload IDE stubs
 ```
 
-Для клиентов Wargaming default locale накладывается поверх `base` в `sources/`, а все локали,
-включая default locale, также сохраняются в `locales/`. У клиентов Lesta отдельного дерева
-`locales/` нет: локализованные файлы уже входят в `sources/`.
+Для клиентов Wargaming default locale накладывается поверх `base` в `sources/`, а все локали, включая default locale, также сохраняются в `locales/`.
+У клиентов Lesta отдельного дерева `locales/` нет, их локализованные файлы уже входят в `sources/`.
 """  # noqa: RUF001 - the generated README intentionally contains Russian prose
     return readme
 

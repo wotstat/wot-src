@@ -1,26 +1,28 @@
 # wot-src
 
-Публичная история читаемых исходников и текстовых данных клиентов World of Tanks и «Мира
-танков». Служебный publisher-код и reusable workflow находятся в ветке
-[`main`](https://github.com/wotstat/wot-src/tree/main), а данные каждого клиента — в отдельной
-региональной ветке.
+Публичная история читаемых исходников и текстовых данных клиентов World of Tanks и «Мира танков». Служебный publisher-код и reusable workflow находятся в ветке
+[`main`](https://github.com/wotstat/wot-src/tree/main), а данные каждого клиента — в отдельной региональной ветке.
 
 ## Регионы
 
-| Клиент | Data-ветка |
-| --- | --- |
-| World of Tanks — Europe | [`wot-eu`](https://github.com/wotstat/wot-src/tree/wot-eu) |
-| World of Tanks — North America | [`wot-na`](https://github.com/wotstat/wot-src/tree/wot-na) |
-| World of Tanks — Asia | [`wot-asia`](https://github.com/wotstat/wot-src/tree/wot-asia) |
-| World of Tanks — China | [`wot-cn`](https://github.com/wotstat/wot-src/tree/wot-cn) |
-| World of Tanks — Common Test | [`wot-common-test`](https://github.com/wotstat/wot-src/tree/wot-common-test) |
-| Мир танков — Россия | [`mt-ru`](https://github.com/wotstat/wot-src/tree/mt-ru) |
-| Мир танков — Public Test | [`mt-public-test`](https://github.com/wotstat/wot-src/tree/mt-public-test) |
+| Клиент                         | Data-ветка                                                                   |
+| ------------------------------ | ---------------------------------------------------------------------------- |
+| World of Tanks — Europe        | [`wot-eu`](https://github.com/wotstat/wot-src/tree/wot-eu)                   |
+| World of Tanks — North America | [`wot-na`](https://github.com/wotstat/wot-src/tree/wot-na)                   |
+| World of Tanks — Asia          | [`wot-asia`](https://github.com/wotstat/wot-src/tree/wot-asia)               |
+| World of Tanks — China         | [`wot-cn`](https://github.com/wotstat/wot-src/tree/wot-cn)                   |
+| World of Tanks — Common Test   | [`wot-common-test`](https://github.com/wotstat/wot-src/tree/wot-common-test) |
+| Мир танков — Россия            | [`mt-ru`](https://github.com/wotstat/wot-src/tree/mt-ru)                     |
+| Мир танков — Public Test       | [`mt-public-test`](https://github.com/wotstat/wot-src/tree/mt-public-test)   |
 
-Первая публикация создаёт data-ветку сразу на version commit. Его сообщение строится из
-`sources/version.xml` без префикса `v.` в формате `2.3.1.0 #903`, а точный release name
-записывается в `.version_name`.
-Транспортные staging commits в историю data-ветки не входят.
+Версия игры с которой снят снепшот записывается в commit сообщение и `.version_name`.
+
+---
+Рекомендуется скачивать только последнее актуальное состояние репозитория без истории изменений:
+
+```bash
+git clone --depth 1 --no-single-branch https://github.com/wotstat/wot-src.git
+```
 
 ## Структура data-ветки
 
@@ -35,64 +37,5 @@ sources-gameface/    # содержимое base/res/gui/gameface без исх�
 stubs/               # полный manifest payload IDE stubs
 ```
 
-Для клиентов Wargaming default locale накладывается поверх `base` в `sources/`, а все локали,
-включая default locale, также сохраняются в `locales/`. У клиентов Lesta отдельного дерева
-`locales/` нет: локализованные файлы уже входят в `sources/`.
-
-## Общая логика pipeline
-
-```text
-game-unpack-pipeline workflow_dispatch
-  → временная VM в Selectel
-  → три изолированных ephemeral JIT runner на одной VM
-  → game-snapshot-builder собирает и запечатывает GameSnapshot
-  → pinned reusable workflow этого репозитория получает локальный путь и identity snapshot
-  → wot-src проверяет snapshot, строит data tree и создаёт commit с точной версией
-  → data-ветка отправляется в GitHub
-  → runner registrations и ресурсы Selectel удаляются
-```
-
-Runner для builder и оба publisher runner подготавливаются одновременно, но публикация начинается
-только после успешной сборки snapshot. Snapshot не передаётся через Actions artifacts: все runner
-читают один локальный путь на VM, работая под разными Unix-пользователями и в разных рабочих
-каталогах.
-
-`game-unpack-pipeline` вызывает `.github/workflows/publish-snapshot.yml` напрямую через
-`uses: wotstat/wot-src/.github/workflows/publish-snapshot.yml@<commit-sha>`. Workflow checkout’ит
-собственный репозиторий через `job.workflow_repository` и `job.workflow_sha`, поэтому исполняемый
-publisher-код совпадает с закреплённой версией workflow. Environment и JIT runner принадлежат
-caller run, а data-ветка, конфигурация и весь publication lifecycle — этому репозиторию.
-
-Publisher независимо проверяет canonical descriptor, маркер `READY`, snapshot identity, manifest
-hashes, payload hashes и полное manifest coverage. Затем он проецирует только публичные данные и
-публикует их в настроенную production data-ветку target. Отсутствующая ветка создаётся первой
-публикацией; существующая ветка без `.publication.json` считается чужой и приводит к hard failure.
-Повторная публикация той же версии сравнивает только публикуемые данные, не считая служебные
-метаданные изменением данных. При неизменных данных publisher возвращает `unchanged` без commit и
-push; при изменениях создаёт новый commit с тем же сообщением версии и обновлёнными метаданными.
-
-Если суммарный размер изменённых Git blobs превышает 1 ГБ, publisher загружает их порциями не
-более 1 ГБ как цепочку служебных commits, начинающуюся от текущей data-версии, через уникальную
-временную ветку `publication-staging/...`. Каждый commit кумулятивно дополняет tree следующей
-порцией; tree последнего commit должен точно совпасть с локальным publication tree. Затем publisher
-через GitHub Git Database API создаёт на уже загруженном tree один version commit и без force
-обновляет production-ref. Временный ref удаляется и при успехе, и при ошибке; служебные commits не
-попадают в production-историю.
-Отдельный файл по-прежнему не может превышать лимит GitHub 100 МиБ.
-
-Причины этой схемы и обязательные инварианты описаны в
-[`docs/publication-transport.md`](docs/publication-transport.md).
-
-## Служебная ветка `main`
-
-В `main` находятся конфигурация targets, publisher и тесты. Эти файлы не копируются в
-data-ветки; там остаются только README, метаданные публикации и данные конкретной версии клиента.
-
-Локальные проверки:
-
-```bash
-uv sync --frozen
-uv run pytest
-uv run ruff check .
-uv run mypy
-```
+Для клиентов Wargaming default locale накладывается поверх `base` в `sources/`, а все локали, включая default locale, также сохраняются в `locales/`.
+У клиентов Lesta отдельного дерева `locales/` нет, их локализованные файлы уже входят в `sources/`.

@@ -3,22 +3,27 @@
   "targets": {
     "mt-public-test": {
       "data_branch": "mt-public-test",
+      "default_locale": "RU",
       "publisher": "lesta"
     },
     "mt-ru": {
       "data_branch": "mt-ru",
+      "default_locale": "RU",
       "publisher": "lesta"
     },
     "wot-asia": {
       "data_branch": "wot-asia",
+      "default_locale": "EN",
       "publisher": "wargaming"
     },
     "wot-cn": {
       "data_branch": "wot-cn",
+      "default_locale": "ZH_CN",
       "publisher": "qihoo"
     },
     "wot-common-test": {
       "data_branch": "wot-common-test",
+      "default_locale": "EN",
       "publisher": "wargaming"
     },
     "wot-eu": {
@@ -28,6 +33,7 @@
     },
     "wot-na": {
       "data_branch": "wot-na",
+      "default_locale": "EN",
       "publisher": "wargaming"
     }
   }
