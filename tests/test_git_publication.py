@@ -154,17 +154,34 @@ def test_partitions_changed_blobs_below_the_push_budget() -> None:
     assert all(sum(blob.size for blob in batch) <= 100 for batch in batches)
 
 
+@pytest.mark.parametrize(
+    ("branch", "profile", "bootstrap"),
+    [
+        ("test/light-wot-eu", "light", False),
+        ("wot-eu", "full", True),
+    ],
+)
 def test_large_publication_prestages_blobs_and_removes_temporary_ref(
     monkeypatch: pytest.MonkeyPatch,
     tmp_path: Path,
     capsys: pytest.CaptureFixture[str],
+    branch: str,
+    profile: str,
+    bootstrap: bool,
 ) -> None:
     repository, remote = _service_repository(tmp_path)
+    if bootstrap:
+        _git("switch", "--orphan", branch, cwd=repository)
+        (repository / "README.md").write_text(render_bootstrap_readme())
+        _git("add", "README.md", cwd=repository)
+        _git("commit", "--message", "init", cwd=repository)
+        _git("push", "origin", branch, cwd=repository)
+        _git("switch", "main", cwd=repository)
     incoming_push_sizes = _record_incoming_push_sizes(remote)
     snapshot = tmp_path / "snapshot"
-    snapshot_id, descriptor_sha256 = _snapshot(snapshot, profile="light")
+    snapshot_id, descriptor_sha256 = _snapshot(snapshot, profile=profile)
     monkeypatch.setattr(publication_module, "OBJECT_STAGING_THRESHOLD_BYTES", 1)
-    monkeypatch.setattr(publication_module, "OBJECT_STAGING_BATCH_BYTES", 3_000)
+    monkeypatch.setattr(publication_module, "OBJECT_STAGING_BATCH_BYTES", 3_500)
     streamed_git_calls: list[tuple[str, ...]] = []
     original_run_git_streaming = publication_module._run_git_streaming
 
@@ -178,16 +195,16 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
         repository,
         snapshot,
         target="wot-eu",
-        branch="test/light-wot-eu",
+        branch=branch,
         expected_snapshot_id=snapshot_id,
         expected_descriptor_sha256=descriptor_sha256,
-        expected_profile="light",
+        expected_profile=profile,
         config_path=ROOT / "config/targets.json",
     )
 
     assert result["publication_state"] == "published"
     assert _git(
-        "--git-dir", str(remote), "rev-parse", "refs/heads/test/light-wot-eu"
+        "--git-dir", str(remote), "rev-parse", f"refs/heads/{branch}"
     ) == result["commit_sha"]
     assert (
         _git(
@@ -206,13 +223,14 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
     production_pushes = [
         arguments
         for arguments in streamed_git_calls
-        if arguments[-1] == "HEAD:refs/heads/test/light-wot-eu"
+        if arguments[-1] == f"HEAD:refs/heads/{branch}"
     ]
     assert len(production_pushes) == 1
-    production_push = production_pushes[0]
-    assert production_push[:4] == ("push", "--progress", "--atomic", "origin")
-    assert production_push[-2].startswith(
-        "+HEAD:refs/heads/publication-staging/test/light-wot-eu/"
+    assert production_pushes[0] == (
+        "push",
+        "--progress",
+        "origin",
+        f"HEAD:refs/heads/{branch}",
     )
     recorded_sizes = [
         (ref, int(size))
@@ -226,11 +244,20 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
         if ref.startswith("refs/heads/publication-staging/") and size > 0
     ]
     production_sizes = [
-        size for ref, size in recorded_sizes if ref == "refs/heads/test/light-wot-eu"
+        size for ref, size in recorded_sizes if ref == f"refs/heads/{branch}"
     ]
     assert staging_sizes
     assert len(production_sizes) == 1
-    assert production_sizes[0] < max(staging_sizes)
+    assert production_sizes[0] == 0
+    subjects = _git(
+        "--git-dir",
+        str(remote),
+        "log",
+        "--format=%s",
+        f"refs/heads/{branch}",
+    ).splitlines()
+    assert subjects[0] == "2.3.1.0 #903"
+    assert any(subject.startswith("stage publication objects ") for subject in subjects[1:])
 
 
 def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) -> None:
@@ -435,11 +462,20 @@ def test_same_version_with_changed_data_creates_another_commit(tmp_path: Path) -
 
 def _legacy_bootstrap_readme() -> str:
     current = render_bootstrap_readme()
-    legacy = current.replace("строится", "берётся").replace(
+    previous = current.replace(
+        "Каждая\nпубликация завершается version commit: его сообщение строится из "  # noqa: RUF001
+        "`sources/version.xml` без префикса\n`v.` в формате `2.3.1.0 #903`, а точный release "  # noqa: RUF001
+        "name записывается в `.version_name`. Перед version\ncommit большой публикации в истории "
+        "могут находиться служебные staging commits.",
+        "Каждый\nследующий commit соответствует одной версии клиента: сообщение строится из "  # noqa: RUF001
+        "`sources/version.xml`\nбез префикса `v.` в формате `2.3.1.0 #903`, а точный release name "  # noqa: RUF001
+        "записывается в `.version_name`.",
+    )
+    legacy = previous.replace("строится", "берётся").replace(
         "без префикса `v.` в формате `2.3.1.0 #903`",
         "в формате `v.2.3.1.0 #903`",
     )
-    assert legacy != current
+    assert legacy != previous != current
     return legacy
 
 
