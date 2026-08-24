@@ -93,6 +93,12 @@ def test_wargaming_projection_applies_default_locale_and_keeps_all_locales(
         "mt-public-test",
     ):
         assert f"https://github.com/wotstat/wot-src/tree/{branch}" in readme
+    clone_command = (
+        "git clone --branch wot-eu --single-branch --depth 1 "
+        "https://github.com/wotstat/wot-src.git"
+    )
+    assert clone_command in readme
+    assert readme.index(clone_command) < readme.index("## Регионы")
     assert "## Структура data-ветки" in readme
     assert "Target: `wot-eu`" in readme
     assert "Ветка: `wot-eu`" in readme
@@ -166,6 +172,10 @@ def test_lesta_projection_uses_base_and_ignores_locale_layers(tmp_path: Path) ->
     assert not (output / "locales").exists()
     readme = (output / "README.md").read_text()
     assert "Target: `mt-ru`" in readme
+    assert (
+        "git clone --branch mt-ru --single-branch --depth 1 "
+        "https://github.com/wotstat/wot-src.git"
+    ) in readme
     assert "У клиентов Lesta отдельного дерева\n`locales/` нет" in readme  # noqa: RUF001
     publication = json.loads((output / ".publication.json").read_text())
     assert publication["publisher"] == "lesta"

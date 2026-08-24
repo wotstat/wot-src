@@ -1166,7 +1166,7 @@ def _commit_subject(source_map: dict[str, PayloadFile]) -> str:
     return subject.removeprefix("v.")
 
 
-def _data_readme_intro() -> str:
+def _data_readme_intro(branch: str) -> str:
     region_rows = "\n".join(
         f"| {client} | [`{data_branch}`]({REPOSITORY_URL}/tree/{data_branch}) |"
         for client, data_branch in REGION_BRANCHES
@@ -1176,6 +1176,12 @@ def _data_readme_intro() -> str:
 Публичная история читаемых исходников и текстовых данных клиентов World of Tanks и «Мира
 танков». Служебный код и GitHub Actions workflows находятся в ветке
 [`main`]({REPOSITORY_URL}/tree/main), а данные каждого клиента — в отдельной региональной ветке.
+
+Скачать только текущую data-ветку без истории:
+
+```bash
+git clone --branch {branch} --single-branch --depth 1 {REPOSITORY_URL}.git
+```
 
 ## Регионы
 
@@ -1216,7 +1222,7 @@ def _data_readme(
     publisher: str,
     snapshot_id: str,
 ) -> str:
-    return f"""{_data_readme_intro()}
+    return f"""{_data_readme_intro(branch)}
 
 ## Текущая публикация
 
