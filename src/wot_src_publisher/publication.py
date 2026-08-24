@@ -349,7 +349,7 @@ def _prestage_large_git_objects(
     branch: str,
     commit_sha: str,
     changed_files: Sequence[str],
-) -> Iterator[None]:
+) -> Iterator[str | None]:
     blobs = _changed_git_blobs(publication_worktree, changed_files)
     total_bytes = sum(blob.size for blob in blobs)
     batches = _partition_git_blobs(
@@ -365,7 +365,7 @@ def _prestage_large_git_objects(
             bytes=total_bytes,
             threshold_bytes=OBJECT_STAGING_THRESHOLD_BYTES,
         )
-        yield
+        yield None
         return
 
     remote_ref = _staging_ref(branch, commit_sha)
@@ -425,7 +425,7 @@ def _prestage_large_git_objects(
                 commit=staging_commit[:12],
             )
         _progress("stage-objects", "completed", remote_ref=remote_ref)
-        yield
+        yield remote_ref
     finally:
         if pushed_ref:
             _delete_remote_ref(repository, remote_ref)
@@ -446,6 +446,7 @@ def _push_commit(
     remote_ref: str,
     commit_sha: str,
     *,
+    staged_remote_ref: str | None = None,
     retry_delays: Sequence[float] = (5.0, 15.0),
 ) -> None:
     attempts = len(retry_delays) + 1
@@ -459,13 +460,17 @@ def _push_commit(
             commit=commit_sha[:12],
             remote_ref=remote_ref,
         )
-        result = _run_git_streaming(
-            worktree,
-            "push",
-            "--progress",
-            "origin",
-            f"HEAD:{remote_ref}",
-        )
+        arguments = ["push", "--progress", "origin", f"HEAD:{remote_ref}"]
+        if staged_remote_ref is not None:
+            arguments = [
+                "push",
+                "--progress",
+                "--atomic",
+                "origin",
+                f"+HEAD:{staged_remote_ref}",
+                f"HEAD:{remote_ref}",
+            ]
+        result = _run_git_streaming(worktree, *arguments)
         elapsed_seconds = round(time.monotonic() - started_at, 3)
         if result.returncode == 0:
             _progress(
@@ -1406,8 +1411,13 @@ def publish_snapshot(
             branch=branch,
             commit_sha=commit_sha,
             changed_files=changed_files,
-        ):
-            _push_commit(worktree, remote_ref, commit_sha)
+        ) as staged_remote_ref:
+            _push_commit(
+                worktree,
+                remote_ref,
+                commit_sha,
+                staged_remote_ref=staged_remote_ref,
+            )
         _progress(
             "publication",
             "completed",

@@ -46,6 +46,34 @@ def _service_repository(tmp_path: Path) -> tuple[Path, Path]:
     return repository, remote
 
 
+def _record_incoming_push_sizes(remote: Path) -> Path:
+    log_path = remote / "incoming-push-sizes"
+    hook = remote / "hooks/pre-receive"
+    hook.write_text(
+        """#!/usr/bin/env python3
+import os
+import sys
+from pathlib import Path
+
+object_directory_value = os.environ.get("GIT_OBJECT_DIRECTORY")
+object_directory = Path(object_directory_value) if object_directory_value else None
+incoming_bytes = (
+    sum(path.stat().st_size for path in object_directory.rglob("*") if path.is_file())
+    if object_directory is not None
+    else 0
+)
+git_directory = Path(os.environ.get("GIT_DIR", "."))
+with (git_directory / "incoming-push-sizes").open("a", encoding="utf-8") as log:
+    for line in sys.stdin:
+        _old, _new, ref = line.split()
+        log.write(f"{ref} {incoming_bytes}\\n")
+""",
+        encoding="utf-8",
+    )
+    hook.chmod(0o755)
+    return log_path
+
+
 def _publish(
     repository: Path,
     snapshot: Path,
@@ -132,10 +160,19 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
     capsys: pytest.CaptureFixture[str],
 ) -> None:
     repository, remote = _service_repository(tmp_path)
+    incoming_push_sizes = _record_incoming_push_sizes(remote)
     snapshot = tmp_path / "snapshot"
     snapshot_id, descriptor_sha256 = _snapshot(snapshot, profile="light")
     monkeypatch.setattr(publication_module, "OBJECT_STAGING_THRESHOLD_BYTES", 1)
-    monkeypatch.setattr(publication_module, "OBJECT_STAGING_BATCH_BYTES", 16_384)
+    monkeypatch.setattr(publication_module, "OBJECT_STAGING_BATCH_BYTES", 3_000)
+    streamed_git_calls: list[tuple[str, ...]] = []
+    original_run_git_streaming = publication_module._run_git_streaming
+
+    def record_streamed_git(worktree: Path, *arguments: str) -> subprocess.CompletedProcess[str]:
+        streamed_git_calls.append(arguments)
+        return original_run_git_streaming(worktree, *arguments)
+
+    monkeypatch.setattr(publication_module, "_run_git_streaming", record_streamed_git)
 
     result = publication_module.publish_snapshot(
         repository,
@@ -166,6 +203,34 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
     assert "publisher stage=stage-objects status=started" in captured.err
     assert "publisher stage=stage-objects status=batch_completed" in captured.err
     assert "publisher stage=stage-objects status=cleanup_completed" in captured.err
+    production_pushes = [
+        arguments
+        for arguments in streamed_git_calls
+        if arguments[-1] == "HEAD:refs/heads/test/light-wot-eu"
+    ]
+    assert len(production_pushes) == 1
+    production_push = production_pushes[0]
+    assert production_push[:4] == ("push", "--progress", "--atomic", "origin")
+    assert production_push[-2].startswith(
+        "+HEAD:refs/heads/publication-staging/test/light-wot-eu/"
+    )
+    recorded_sizes = [
+        (ref, int(size))
+        for ref, size in (
+            line.split() for line in incoming_push_sizes.read_text().splitlines()
+        )
+    ]
+    staging_sizes = [
+        size
+        for ref, size in recorded_sizes
+        if ref.startswith("refs/heads/publication-staging/") and size > 0
+    ]
+    production_sizes = [
+        size for ref, size in recorded_sizes if ref == "refs/heads/test/light-wot-eu"
+    ]
+    assert staging_sizes
+    assert len(production_sizes) == 1
+    assert production_sizes[0] < max(staging_sizes)
 
 
 def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) -> None:
