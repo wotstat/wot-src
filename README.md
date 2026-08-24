@@ -1,7 +1,7 @@
 # wot-src
 
 Публичная история читаемых исходников и текстовых данных клиентов World of Tanks и «Мира
-танков». Служебный код и GitHub Actions workflows находятся в ветке
+танков». Служебный publisher-код находится в ветке
 [`main`](https://github.com/wotstat/wot-src/tree/main), а данные каждого клиента — в отдельной
 региональной ветке.
 
@@ -45,7 +45,7 @@ game-unpack-pipeline workflow_dispatch
   → временная VM в Selectel
   → три изолированных ephemeral JIT runner на одной VM
   → game-snapshot-builder собирает и запечатывает GameSnapshot
-  → pinned reusable workflow wot-src получает локальный путь и identity snapshot
+  → orchestrator-owned publisher job получает локальный путь и identity snapshot
   → wot-src проверяет snapshot, строит data tree и создаёт commit с точной версией
   → data-ветка отправляется в GitHub
   → runner registrations и ресурсы Selectel удаляются
@@ -56,11 +56,9 @@ Runner для builder и оба publisher runner подготавливаютс�
 читают один локальный путь на VM, работая под разными Unix-пользователями и в разных рабочих
 каталогах.
 
-Оркестратор переиспользует [`publish-snapshot.yml`](.github/workflows/publish-snapshot.yml) через
-`workflow_call` по закреплённому commit SHA. Workflow выполняется как часть основного run, но
-checkout делает из собственного `job.workflow_repository` на `job.workflow_sha`; data-ветка и
-publisher-код поэтому остаются в этом репозитории, а JIT runner принадлежит caller-репозиторию.
-Publisher независимо проверяет canonical descriptor, маркер
+Оркестратор владеет lifecycle publication job и checkout’ит этот репозиторий по закреплённому
+commit SHA. Data-ветка, конфигурация и publisher-код остаются здесь, а workflow, Environment и JIT
+runner принадлежат `game-unpack-pipeline`. Publisher независимо проверяет canonical descriptor, маркер
 `READY`, snapshot identity, manifest hashes, payload hashes и полное manifest coverage. Затем он
 проецирует только публичные данные, создаёт commit с версией из `sources/version.xml` и отправляет
 его в ветку целевого региона. История data-ветки загружается как commit-only partial fetch; payload
@@ -80,7 +78,7 @@ Production-ветки принимают только `full` snapshot. Light-п�
 
 ## Служебная ветка `main`
 
-В `main` находятся workflow, конфигурация targets, publisher и тесты. Эти файлы не копируются в
+В `main` находятся конфигурация targets, publisher и тесты. Эти файлы не копируются в
 data-ветки; там остаются только README, метаданные публикации и данные конкретной версии клиента.
 
 Локальные проверки:
