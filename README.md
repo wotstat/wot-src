@@ -80,6 +80,9 @@ Production-ветки принимают только `full` snapshot. Light-п�
 попадают в production-историю.
 Отдельный файл по-прежнему не может превышать лимит GitHub 100 МиБ.
 
+Причины этой схемы, обязательные инварианты и inventory удаляемой legacy-совместимости описаны в
+[`docs/publication-transport.md`](docs/publication-transport.md).
+
 ## Служебная ветка `main`
 
 В `main` находятся конфигурация targets, publisher и тесты. Эти файлы не копируются в
