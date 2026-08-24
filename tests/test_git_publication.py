@@ -183,6 +183,7 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
     monkeypatch.setattr(publication_module, "OBJECT_STAGING_THRESHOLD_BYTES", 1)
     monkeypatch.setattr(publication_module, "OBJECT_STAGING_BATCH_BYTES", 3_500)
     streamed_git_calls: list[tuple[str, ...]] = []
+    github_finalize_calls: list[tuple[str, bool, str, tuple[str, ...]]] = []
     original_run_git_streaming = publication_module._run_git_streaming
 
     def record_streamed_git(worktree: Path, *arguments: str) -> subprocess.CompletedProcess[str]:
@@ -190,6 +191,34 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
         return original_run_git_streaming(worktree, *arguments)
 
     monkeypatch.setattr(publication_module, "_run_git_streaming", record_streamed_git)
+
+    def fake_github_finalize(
+        worktree: Path,
+        *,
+        branch: str,
+        branch_exists: bool,
+        commit_sha: str,
+        changed_files: list[str],
+        blobs: tuple[publication_module._GitBlob, ...],
+    ) -> str:
+        github_finalize_calls.append(
+            (branch, branch_exists, commit_sha, tuple(changed_files))
+        )
+        assert {blob.path for blob in blobs}.issubset(changed_files)
+        _git("--git-dir", str(remote), "fetch", str(worktree), commit_sha)
+        ref = f"refs/heads/{branch}"
+        if branch_exists:
+            old_commit = _git("--git-dir", str(remote), "rev-parse", ref)
+            _git("--git-dir", str(remote), "update-ref", ref, commit_sha, old_commit)
+        else:
+            _git("--git-dir", str(remote), "update-ref", ref, commit_sha)
+        return commit_sha
+
+    monkeypatch.setattr(
+        publication_module,
+        "_publish_large_commit_via_github_api",
+        fake_github_finalize,
+    )
 
     result = publication_module.publish_snapshot(
         repository,
@@ -220,18 +249,14 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
     assert "publisher stage=stage-objects status=started" in captured.err
     assert "publisher stage=stage-objects status=batch_completed" in captured.err
     assert "publisher stage=stage-objects status=cleanup_completed" in captured.err
+    assert len(github_finalize_calls) == 1
+    assert github_finalize_calls[0][0:2] == (branch, bootstrap)
     production_pushes = [
         arguments
         for arguments in streamed_git_calls
         if arguments[-1] == f"HEAD:refs/heads/{branch}"
     ]
-    assert len(production_pushes) == 1
-    assert production_pushes[0] == (
-        "push",
-        "--progress",
-        "origin",
-        f"HEAD:refs/heads/{branch}",
-    )
+    assert production_pushes == []
     recorded_sizes = [
         (ref, int(size))
         for ref, size in (
@@ -243,12 +268,8 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
         for ref, size in recorded_sizes
         if ref.startswith("refs/heads/publication-staging/") and size > 0
     ]
-    production_sizes = [
-        size for ref, size in recorded_sizes if ref == f"refs/heads/{branch}"
-    ]
     assert staging_sizes
-    assert len(production_sizes) == 1
-    assert production_sizes[0] == 0
+    assert all(ref != f"refs/heads/{branch}" for ref, _size in recorded_sizes)
     subjects = _git(
         "--git-dir",
         str(remote),
@@ -257,7 +278,76 @@ def test_large_publication_prestages_blobs_and_removes_temporary_ref(
         f"refs/heads/{branch}",
     ).splitlines()
     assert subjects[0] == "2.3.1.0 #903"
-    assert any(subject.startswith("stage publication objects ") for subject in subjects[1:])
+    assert not any(subject.startswith("stage publication objects ") for subject in subjects)
+    assert subjects == (["2.3.1.0 #903", "init"] if bootstrap else ["2.3.1.0 #903"])
+
+
+def test_github_api_finalization_builds_tree_commit_and_fast_forward_ref(
+    monkeypatch: pytest.MonkeyPatch,
+    tmp_path: Path,
+) -> None:
+    repository, _remote = _service_repository(tmp_path)
+    parent = _git("rev-parse", "HEAD", cwd=repository)
+    parent_tree = _git("rev-parse", "HEAD^{tree}", cwd=repository)
+    (repository / "README.md").unlink()
+    (repository / "a.txt").write_text("a")
+    (repository / "b.txt").write_text("b")
+    _git("add", "--all", cwd=repository)
+    changed_files = ["README.md", "a.txt", "b.txt"]
+    blobs = publication_module._changed_git_blobs(repository, changed_files)
+    _git("commit", "--message", "publication", cwd=repository)
+    commit_sha = _git("rev-parse", "HEAD", cwd=repository)
+    expected_tree = _git("rev-parse", "HEAD^{tree}", cwd=repository)
+    monkeypatch.setenv("PUBLISHER_GITHUB_REPOSITORY", "wotstat/wot-src")
+    monkeypatch.setenv("PUBLISHER_GITHUB_TOKEN", "test-token")
+    monkeypatch.setattr(publication_module, "GITHUB_TREE_BATCH_ENTRIES", 2)
+    calls: list[tuple[str, str, dict[str, object] | None]] = []
+
+    def fake_api_request(
+        api_repository: str,
+        token: str,
+        method: str,
+        path: str,
+        payload: dict[str, object] | None = None,
+        **_kwargs: object,
+    ) -> dict[str, object]:
+        assert api_repository == "wotstat/wot-src"
+        assert token == "test-token"
+        calls.append((method, path, payload))
+        if path == "git/trees":
+            tree_calls = sum(call_path == "git/trees" for _method, call_path, _body in calls)
+            return {"sha": "a" * 40 if tree_calls == 1 else expected_tree}
+        if path == "git/commits":
+            return {"sha": commit_sha}
+        return {"object": {"sha": commit_sha}}
+
+    monkeypatch.setattr(publication_module, "_github_api_request", fake_api_request)
+
+    result = publication_module._publish_large_commit_via_github_api(
+        repository,
+        branch="wot-eu",
+        branch_exists=True,
+        commit_sha=commit_sha,
+        changed_files=changed_files,
+        blobs=blobs,
+    )
+
+    assert result == commit_sha
+    first_tree = calls[0][2]
+    second_tree = calls[1][2]
+    assert first_tree is not None and first_tree["base_tree"] == parent_tree
+    assert first_tree["tree"][0] == {"path": "README.md", "sha": None}
+    assert second_tree is not None and second_tree["base_tree"] == "a" * 40
+    commit_call = calls[2]
+    assert commit_call[0:2] == ("POST", "git/commits")
+    assert commit_call[2] is not None
+    assert commit_call[2]["tree"] == expected_tree
+    assert commit_call[2]["parents"] == [parent]
+    assert calls[3] == (
+        "PATCH",
+        "git/refs/heads/wot-eu",
+        {"sha": commit_sha, "force": False},
+    )
 
 
 def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) -> None:
@@ -465,8 +555,8 @@ def _legacy_bootstrap_readme() -> str:
     previous = current.replace(
         "Каждая\nпубликация завершается version commit: его сообщение строится из "  # noqa: RUF001
         "`sources/version.xml` без префикса\n`v.` в формате `2.3.1.0 #903`, а точный release "  # noqa: RUF001
-        "name записывается в `.version_name`. Перед version\ncommit большой публикации в истории "
-        "могут находиться служебные staging commits.",
+        "name записывается в `.version_name`.\nТранспортные staging commits в историю "  # noqa: RUF001
+        "data-ветки не входят.",
         "Каждый\nследующий commit соответствует одной версии клиента: сообщение строится из "  # noqa: RUF001
         "`sources/version.xml`\nбез префикса `v.` в формате `2.3.1.0 #903`, а точный release name "  # noqa: RUF001
         "записывается в `.version_name`.",

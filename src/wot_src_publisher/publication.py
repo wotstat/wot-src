@@ -10,6 +10,8 @@ import subprocess
 import sys
 import tempfile
 import time
+import urllib.error
+import urllib.request
 import xml.etree.ElementTree as ElementTree
 from collections.abc import Iterator, Sequence
 from contextlib import contextmanager
@@ -29,6 +31,9 @@ REPOSITORY_URL = "https://github.com/wotstat/wot-src"
 OBJECT_STAGING_THRESHOLD_BYTES = 1_000_000_000
 OBJECT_STAGING_BATCH_BYTES = 1_000_000_000
 GITHUB_MAX_BLOB_BYTES = 100 * 1024 * 1024
+GITHUB_TREE_BATCH_ENTRIES = 5_000
+GITHUB_API_VERSION = "2022-11-28"
+GITHUB_REPOSITORY_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
 LEGACY_BOOTSTRAP_README_SHA256S = frozenset(
     {
         "c0b5be60db2a12702d8f8856079d6d4098624dd663253c95c76b4b50a89896b4",
@@ -145,7 +150,7 @@ class _GitBlob:
 @dataclass(frozen=True, slots=True)
 class _StagedObjects:
     remote_ref: str
-    tip_commit: str
+    blobs: tuple[_GitBlob, ...]
 
 
 def _run_git(
@@ -236,6 +241,309 @@ def _git_error_excerpt(details: str) -> str:
     excerpt = " | ".join(lines[-20:])
     excerpt = re.sub(r"https://[^@\s]+@", "https://***@", excerpt)
     return excerpt[-4000:]
+
+
+def _github_api_credentials() -> tuple[str, str]:
+    repository = os.environ.get("PUBLISHER_GITHUB_REPOSITORY", "")
+    token = os.environ.get("PUBLISHER_GITHUB_TOKEN", "")
+    if not GITHUB_REPOSITORY_RE.fullmatch(repository):
+        raise PublicationError(
+            "PUBLISHER_GITHUB_REPOSITORY must be an owner/repository slug"
+        )
+    if not token:
+        raise PublicationError("PUBLISHER_GITHUB_TOKEN is required for a large publication")
+    return repository, token
+
+
+def _github_api_error_excerpt(body: bytes) -> str:
+    details = body.decode("utf-8", errors="replace")
+    try:
+        document = json.loads(details)
+    except json.JSONDecodeError:
+        pass
+    else:
+        if isinstance(document, dict):
+            message = document.get("message")
+            details = str(message) if message else "GitHub API request failed"
+    return re.sub(r"https://[^@\s]+@", "https://***@", details.strip())[-2000:]
+
+
+def _github_api_request(
+    repository: str,
+    token: str,
+    method: str,
+    path: str,
+    payload: dict[str, object] | None = None,
+    *,
+    retry_delays: Sequence[float] = (5.0, 15.0),
+) -> dict[str, Any]:
+    data = None if payload is None else json.dumps(payload, separators=(",", ":")).encode()
+    attempts = len(retry_delays) + 1
+    for attempt in range(1, attempts + 1):
+        request = urllib.request.Request(
+            f"https://api.github.com/repos/{repository}/{path}",
+            data=data,
+            method=method,
+            headers={
+                "Accept": "application/vnd.github+json",
+                "Authorization": f"Bearer {token}",
+                "User-Agent": "wotstat-snapshot-publisher",
+                "X-GitHub-Api-Version": GITHUB_API_VERSION,
+            },
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=60) as response:
+                body = response.read()
+        except urllib.error.HTTPError as error:
+            body = error.read()
+            retryable = error.code == 429 or 500 <= error.code < 600
+            if retryable and attempt < attempts:
+                delay = retry_delays[attempt - 1]
+                _progress(
+                    "github-api",
+                    "retrying",
+                    method=method,
+                    path=path,
+                    status_code=error.code,
+                    attempt=attempt,
+                    next_attempt=attempt + 1,
+                    retry_delay_seconds=delay,
+                )
+                time.sleep(delay)
+                continue
+            raise PublicationError(
+                f"GitHub API {method} {path} failed with HTTP {error.code}: "
+                f"{_github_api_error_excerpt(body)}"
+            ) from error
+        except urllib.error.URLError as error:
+            if attempt < attempts:
+                delay = retry_delays[attempt - 1]
+                _progress(
+                    "github-api",
+                    "retrying",
+                    method=method,
+                    path=path,
+                    attempt=attempt,
+                    next_attempt=attempt + 1,
+                    retry_delay_seconds=delay,
+                    reason=type(error.reason).__name__,
+                )
+                time.sleep(delay)
+                continue
+            raise PublicationError(
+                f"GitHub API {method} {path} transport failed: {type(error.reason).__name__}"
+            ) from error
+        try:
+            document = json.loads(body)
+        except json.JSONDecodeError as error:
+            raise PublicationError(
+                f"GitHub API {method} {path} returned invalid JSON"
+            ) from error
+        if not isinstance(document, dict):
+            raise PublicationError(
+                f"GitHub API {method} {path} returned a non-object response"
+            )
+        return document
+    raise AssertionError("unreachable GitHub API retry state")
+
+
+def _required_git_object_id(document: dict[str, Any], *, label: str) -> str:
+    object_id = document.get("sha")
+    if not isinstance(object_id, str) or not GIT_OBJECT_ID_RE.fullmatch(object_id):
+        raise PublicationError(f"GitHub API returned an invalid {label} object ID")
+    return object_id
+
+
+def _publish_large_commit_via_github_api(
+    worktree: Path,
+    *,
+    branch: str,
+    branch_exists: bool,
+    commit_sha: str,
+    changed_files: Sequence[str],
+    blobs: Sequence[_GitBlob],
+) -> str:
+    repository, token = _github_api_credentials()
+    parent_result = _run_git(
+        worktree,
+        "rev-parse",
+        "--verify",
+        f"{commit_sha}^",
+        check=False,
+    )
+    parent = parent_result.stdout.strip() if parent_result.returncode == 0 else None
+    if branch_exists != (parent is not None):
+        raise PublicationError("local publication parent does not match remote branch state")
+    base_tree = (
+        _run_git(worktree, "rev-parse", f"{parent}^{{tree}}").stdout.strip()
+        if parent is not None
+        else None
+    )
+    expected_tree = _run_git(
+        worktree, "rev-parse", f"{commit_sha}^{{tree}}"
+    ).stdout.strip()
+    blob_by_path = {blob.path: blob for blob in blobs}
+    deleted_paths = sorted(set(changed_files) - set(blob_by_path))
+    if base_tree is None and deleted_paths:
+        raise PublicationError(
+            f"new data branch unexpectedly deletes a path: {deleted_paths[0]}"
+        )
+    entries: list[dict[str, object]] = [
+        {"path": path, "sha": None} for path in deleted_paths
+    ]
+    entries.extend(
+        {
+            "path": blob.path,
+            "mode": blob.mode,
+            "type": "blob",
+            "sha": blob.object_id,
+        }
+        for blob in sorted(blobs, key=lambda item: item.path)
+    )
+    if set(blob_by_path) - set(changed_files):
+        raise PublicationError("staged Git blob set does not match changed publication paths")
+    if not entries:
+        raise PublicationError("large publication has no changed Git tree entries")
+
+    total_batches = (len(entries) + GITHUB_TREE_BATCH_ENTRIES - 1) // GITHUB_TREE_BATCH_ENTRIES
+    _progress(
+        "github-finalize",
+        "started",
+        repository=repository,
+        branch=branch,
+        files=len(entries),
+        tree_batches=total_batches,
+        provisional_commit=commit_sha[:12],
+    )
+    for batch_number, offset in enumerate(
+        range(0, len(entries), GITHUB_TREE_BATCH_ENTRIES), start=1
+    ):
+        batch = entries[offset : offset + GITHUB_TREE_BATCH_ENTRIES]
+        payload: dict[str, object] = {"tree": batch}
+        if base_tree is not None:
+            payload["base_tree"] = base_tree
+        response = _github_api_request(
+            repository,
+            token,
+            "POST",
+            "git/trees",
+            payload,
+        )
+        if response.get("truncated") is True:
+            raise PublicationError("GitHub API truncated a publication tree response")
+        base_tree = _required_git_object_id(response, label="tree")
+        _progress(
+            "github-finalize",
+            "tree_batch_completed",
+            batch=batch_number,
+            batches=total_batches,
+            files=len(batch),
+            tree=base_tree[:12],
+        )
+    if base_tree != expected_tree:
+        raise PublicationError(
+            "GitHub API final tree does not match the locally verified publication tree"
+        )
+    _progress("github-finalize", "tree_completed", tree=base_tree[:12])
+
+    identity = _run_git(
+        worktree,
+        "show",
+        "--no-patch",
+        "--format=%an%x00%ae%x00%aI%x00%cn%x00%ce%x00%cI",
+        commit_sha,
+    ).stdout.rstrip("\n").split("\0")
+    if len(identity) != 6:
+        raise PublicationError("could not inspect publication commit identity")
+    (
+        author_name,
+        author_email,
+        author_date,
+        committer_name,
+        committer_email,
+        committer_date,
+    ) = identity
+    message = _run_git(
+        worktree,
+        "show",
+        "--no-patch",
+        "--format=%B",
+        commit_sha,
+    ).stdout.rstrip("\n")
+    commit_payload: dict[str, object] = {
+        "message": message,
+        "tree": base_tree,
+        "parents": [parent] if parent is not None else [],
+        "author": {"name": author_name, "email": author_email, "date": author_date},
+        "committer": {
+            "name": committer_name,
+            "email": committer_email,
+            "date": committer_date,
+        },
+    }
+    commit_response = _github_api_request(
+        repository,
+        token,
+        "POST",
+        "git/commits",
+        commit_payload,
+    )
+    published_commit = _required_git_object_id(commit_response, label="commit")
+    _progress("github-finalize", "commit_created", commit=published_commit[:12])
+
+    ref_path = f"git/refs/heads/{branch}"
+    get_ref_path = f"git/ref/heads/{branch}"
+    try:
+        if branch_exists:
+            ref_response = _github_api_request(
+                repository,
+                token,
+                "PATCH",
+                ref_path,
+                {"sha": published_commit, "force": False},
+            )
+        else:
+            ref_response = _github_api_request(
+                repository,
+                token,
+                "POST",
+                "git/refs",
+                {"ref": f"refs/heads/{branch}", "sha": published_commit},
+            )
+    except PublicationError as update_error:
+        try:
+            ref_response = _github_api_request(
+                repository,
+                token,
+                "GET",
+                get_ref_path,
+            )
+            remote_object = ref_response.get("object")
+            remote_sha = (
+                remote_object.get("sha") if isinstance(remote_object, dict) else None
+            )
+        except PublicationError as inspect_error:
+            raise update_error from inspect_error
+        if remote_sha != published_commit:
+            raise update_error
+    else:
+        remote_object = ref_response.get("object")
+        remote_sha = remote_object.get("sha") if isinstance(remote_object, dict) else None
+        if remote_sha != published_commit:
+            raise PublicationError("GitHub API returned an unexpected updated ref target")
+    _progress(
+        "github-finalize",
+        "ref_updated",
+        branch=branch,
+        commit=published_commit[:12],
+    )
+    _progress(
+        "github-finalize",
+        "completed",
+        branch=branch,
+        commit=published_commit[:12],
+    )
+    return published_commit
 
 
 def _git_object_stats(repository: Path) -> dict[str, int]:
@@ -450,8 +758,7 @@ def _prestage_large_git_objects(
                 commit=staging_commit[:12],
             )
         _progress("stage-objects", "completed", remote_ref=remote_ref)
-        staging_tip = _run_git(staging_worktree, "rev-parse", "HEAD").stdout.strip()
-        yield _StagedObjects(remote_ref=remote_ref, tip_commit=staging_tip)
+        yield _StagedObjects(remote_ref=remote_ref, blobs=blobs)
     finally:
         if pushed_ref:
             _delete_remote_ref(repository, remote_ref)
@@ -500,6 +807,7 @@ def _push_commit(
                 attempt=attempt,
                 elapsed_seconds=elapsed_seconds,
                 commit=commit_sha[:12],
+                remote_ref=remote_ref,
             )
             return
 
@@ -511,6 +819,7 @@ def _push_commit(
                 elapsed_seconds=elapsed_seconds,
                 commit=commit_sha[:12],
                 result="remote_updated_after_transport_error",
+                remote_ref=remote_ref,
             )
             return
 
@@ -918,8 +1227,8 @@ def _data_readme_intro() -> str:
 
 Каждая production data-ветка начинается с bootstrap commit `init`, содержащего этот README. Каждая
 публикация завершается version commit: его сообщение строится из `sources/version.xml` без префикса
-`v.` в формате `2.3.1.0 #903`, а точный release name записывается в `.version_name`. Перед version
-commit большой публикации в истории могут находиться служебные staging commits.
+`v.` в формате `2.3.1.0 #903`, а точный release name записывается в `.version_name`.
+Транспортные staging commits в историю data-ветки не входят.
 
 ## Структура data-ветки
 
@@ -1372,7 +1681,13 @@ def publish_snapshot(
                     f"could not compare projected data tree: {difference.stderr}"
                 )
             changed_files = (
-                _run_git(worktree, "diff", "--cached", "--name-only").stdout.splitlines()
+                _run_git(
+                    worktree,
+                    "diff",
+                    "--cached",
+                    "--name-only",
+                    "-z",
+                ).stdout.rstrip("\0").split("\0")
                 if difference.returncode == 1
                 else []
             )
@@ -1435,28 +1750,24 @@ def publish_snapshot(
             changed_files=changed_files,
         ) as staged_objects:
             if staged_objects is not None:
-                provisional_commit = commit_sha
-                _progress(
-                    "stage-objects",
-                    "finalize_started",
-                    parent=staged_objects.tip_commit[:12],
-                    provisional_commit=provisional_commit[:12],
+                try:
+                    commit_sha = _publish_large_commit_via_github_api(
+                        worktree,
+                        branch=branch,
+                        branch_exists=branch_exists,
+                        commit_sha=commit_sha,
+                        changed_files=changed_files,
+                        blobs=staged_objects.blobs,
+                    )
+                except Exception:
+                    _progress("github-finalize", "failed", branch=branch)
+                    raise
+            else:
+                _push_commit(
+                    worktree,
+                    remote_ref,
+                    commit_sha,
                 )
-                _run_git(worktree, "reset", "--soft", staged_objects.tip_commit)
-                _run_git(worktree, "commit", "--reuse-message", provisional_commit)
-                commit_sha = _run_git(worktree, "rev-parse", "HEAD").stdout.strip()
-                _push_commit(worktree, staged_objects.remote_ref, commit_sha)
-                _progress(
-                    "stage-objects",
-                    "finalize_completed",
-                    commit=commit_sha[:12],
-                    remote_ref=staged_objects.remote_ref,
-                )
-            _push_commit(
-                worktree,
-                remote_ref,
-                commit_sha,
-            )
         _progress(
             "publication",
             "completed",

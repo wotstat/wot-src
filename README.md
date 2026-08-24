@@ -19,8 +19,8 @@
 
 Каждая production data-ветка начинается с bootstrap commit `init`, содержащего этот README. Каждая
 публикация завершается version commit: его сообщение строится из `sources/version.xml` без префикса
-`v.` в формате `2.3.1.0 #903`, а точный release name записывается в `.version_name`. Перед version
-commit большой публикации в истории могут находиться служебные staging commits.
+`v.` в формате `2.3.1.0 #903`, а точный release name записывается в `.version_name`.
+Транспортные staging commits в историю data-ветки не входят.
 
 ## Структура data-ветки
 
@@ -73,10 +73,10 @@ Production-ветки принимают только `full` snapshot. Light-п�
 
 Если суммарный размер изменённых Git blobs превышает 1 ГБ, publisher загружает их порциями не
 более 1 ГБ как цепочку служебных commits, начинающуюся от текущей data-версии, через уникальную
-временную ветку `publication-staging/...`. Финальный version commit становится потомком этой
-цепочки и сначала fast-forward’ится в staging-ветку малым pack; production-ref затем переключается
-на уже существующий на GitHub commit без повторной отправки blobs. Временный ref удаляется после
-финального push, включая ошибочный путь, а служебные commits остаются частью истории версии.
+временную ветку `publication-staging/...`. Пока временный ref удерживает blobs, publisher через
+GitHub Git Database API собирает итоговый tree из их object IDs, проверяет его точное совпадение с
+локальным tree, создаёт один version commit и без force обновляет production-ref. Временный ref
+удаляется и при успехе, и при ошибке; служебные commits не попадают в production-историю.
 Отдельный файл по-прежнему не может превышать лимит GitHub 100 МиБ.
 
 ## Служебная ветка `main`
