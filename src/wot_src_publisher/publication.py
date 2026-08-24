@@ -26,6 +26,12 @@ SOURCE_SUFFIXES = frozenset({".po", ".py", ".xml"})
 GAMEFACE_PREFIX = "res/gui/gameface/"
 MANIFEST_NAMES = ("files", "actionscript", "stubs", "packages", "conflicts")
 REPOSITORY_URL = "https://github.com/wotstat/wot-src"
+OBJECT_STAGING_THRESHOLD_BYTES = 1_000_000_000
+OBJECT_STAGING_BATCH_BYTES = 1_000_000_000
+GITHUB_MAX_BLOB_BYTES = 100 * 1024 * 1024
+LEGACY_BOOTSTRAP_README_SHA256S = frozenset(
+    {"c0b5be60db2a12702d8f8856079d6d4098624dd663253c95c76b4b50a89896b4"}
+)
 REGION_BRANCHES = (
     ("World of Tanks — Europe", "wot-eu"),
     ("World of Tanks — North America", "wot-na"),
@@ -125,16 +131,26 @@ class VerifiedSnapshot:
     stubs: tuple[PayloadFile, ...]
 
 
+@dataclass(frozen=True, slots=True)
+class _GitBlob:
+    path: str
+    mode: str
+    object_id: str
+    size: int
+
+
 def _run_git(
     repository: Path,
     *arguments: str,
     check: bool = True,
+    input_text: str | None = None,
 ) -> subprocess.CompletedProcess[str]:
     result = subprocess.run(
         ["git", "-C", str(repository), *arguments],
         text=True,
         capture_output=True,
         check=False,
+        input=input_text,
     )
     if check and result.returncode != 0:
         details = result.stderr.strip() or result.stdout.strip()
@@ -227,6 +243,204 @@ def _git_object_stats(repository: Path) -> dict[str, int]:
     }
 
 
+def _changed_git_blobs(worktree: Path, changed_files: Sequence[str]) -> tuple[_GitBlob, ...]:
+    changed = set(changed_files)
+    if not changed:
+        return ()
+    entries: list[_GitBlob] = []
+    for record in _run_git(worktree, "ls-files", "--stage", "-z").stdout.split("\0"):
+        if not record:
+            continue
+        metadata, separator, path = record.partition("\t")
+        if not separator or path not in changed:
+            continue
+        fields = metadata.split()
+        if len(fields) != 3 or fields[2] != "0":
+            raise PublicationError(f"could not inspect staged Git blob: {path}")
+        mode, object_id, _stage = fields
+        if mode not in {"100644", "100755"} or not GIT_OBJECT_ID_RE.fullmatch(object_id):
+            raise PublicationError(f"unsupported staged Git entry: {path}")
+        file_path = worktree / path
+        file_stat = file_path.stat()
+        if not stat.S_ISREG(file_stat.st_mode):
+            raise PublicationError(f"staged publication entry is not a regular file: {path}")
+        entries.append(_GitBlob(path, mode, object_id, file_stat.st_size))
+    expected = {
+        path
+        for path in changed
+        if (worktree / path).exists() and not (worktree / path).is_dir()
+    }
+    actual = {entry.path for entry in entries}
+    if actual != expected:
+        missing = sorted(expected - actual)
+        raise PublicationError(
+            f"could not resolve {len(missing)} changed Git blobs"
+            + (f": {missing[0]}" if missing else "")
+        )
+    return tuple(entries)
+
+
+def _partition_git_blobs(
+    blobs: Sequence[_GitBlob],
+    *,
+    max_batch_bytes: int,
+) -> tuple[tuple[_GitBlob, ...], ...]:
+    if max_batch_bytes <= 0:
+        raise PublicationError("Git object staging batch budget must be positive")
+    batches: list[tuple[_GitBlob, ...]] = []
+    current: list[_GitBlob] = []
+    current_bytes = 0
+    for blob in blobs:
+        if blob.size > GITHUB_MAX_BLOB_BYTES:
+            raise PublicationError(
+                f"Git blob exceeds GitHub's 100 MiB file limit: {blob.path} ({blob.size} bytes)"
+            )
+        if blob.size > max_batch_bytes:
+            raise PublicationError(
+                f"Git blob exceeds the staging batch budget: {blob.path} ({blob.size} bytes)"
+            )
+        if current and current_bytes + blob.size > max_batch_bytes:
+            batches.append(tuple(current))
+            current = []
+            current_bytes = 0
+        current.append(blob)
+        current_bytes += blob.size
+    if current:
+        batches.append(tuple(current))
+    return tuple(batches)
+
+
+def _staging_ref(branch: str, commit_sha: str) -> str:
+    run_id = os.environ.get("GITHUB_RUN_ID", "")
+    run_attempt = os.environ.get("GITHUB_RUN_ATTEMPT", "")
+    if run_id.isdigit() and run_attempt.isdigit():
+        owner = f"{run_id}-{run_attempt}"
+    else:
+        owner = f"local-{os.getpid()}"
+    return f"refs/heads/publication-staging/{branch}/{owner}-{commit_sha[:12]}"
+
+
+def _delete_remote_ref(repository: Path, remote_ref: str) -> None:
+    result = _run_git_streaming(
+        repository,
+        "push",
+        "--progress",
+        "origin",
+        f":{remote_ref}",
+    )
+    if result.returncode == 0 or _remote_head(repository, remote_ref) is None:
+        _progress("stage-objects", "cleanup_completed", remote_ref=remote_ref)
+        return
+    details = result.stderr.strip() or result.stdout.strip()
+    _progress(
+        "stage-objects",
+        "cleanup_failed",
+        remote_ref=remote_ref,
+        error=_git_error_excerpt(details),
+    )
+
+
+@contextmanager
+def _prestage_large_git_objects(
+    repository: Path,
+    publication_worktree: Path,
+    staging_worktree: Path,
+    *,
+    branch: str,
+    commit_sha: str,
+    changed_files: Sequence[str],
+) -> Iterator[None]:
+    blobs = _changed_git_blobs(publication_worktree, changed_files)
+    total_bytes = sum(blob.size for blob in blobs)
+    batches = _partition_git_blobs(
+        blobs,
+        max_batch_bytes=OBJECT_STAGING_BATCH_BYTES,
+    )
+    if total_bytes <= OBJECT_STAGING_THRESHOLD_BYTES:
+        _progress(
+            "stage-objects",
+            "skipped",
+            reason="below_threshold",
+            files=len(blobs),
+            bytes=total_bytes,
+            threshold_bytes=OBJECT_STAGING_THRESHOLD_BYTES,
+        )
+        yield
+        return
+
+    remote_ref = _staging_ref(branch, commit_sha)
+    registered = False
+    pushed_ref = False
+    _progress(
+        "stage-objects",
+        "started",
+        files=len(blobs),
+        bytes=total_bytes,
+        batches=len(batches),
+        batch_budget_bytes=OBJECT_STAGING_BATCH_BYTES,
+        remote_ref=remote_ref,
+    )
+    try:
+        _run_git(
+            repository,
+            "worktree",
+            "add",
+            "--detach",
+            "--no-checkout",
+            str(staging_worktree),
+            "HEAD",
+        )
+        registered = True
+        for batch_number, batch in enumerate(batches, start=1):
+            batch_bytes = sum(blob.size for blob in batch)
+            _run_git(staging_worktree, "read-tree", "--empty")
+            index_info = "".join(
+                f"{blob.mode} {blob.object_id}\t{blob.path}\0" for blob in batch
+            )
+            _run_git(
+                staging_worktree,
+                "update-index",
+                "-z",
+                "--index-info",
+                input_text=index_info,
+            )
+            _run_git(
+                staging_worktree,
+                "commit",
+                "--message",
+                f"stage publication objects {batch_number}/{len(batches)}",
+            )
+            staging_commit = _run_git(
+                staging_worktree, "rev-parse", "HEAD"
+            ).stdout.strip()
+            pushed_ref = True
+            _push_commit(staging_worktree, remote_ref, staging_commit)
+            _progress(
+                "stage-objects",
+                "batch_completed",
+                batch=batch_number,
+                batches=len(batches),
+                files=len(batch),
+                bytes=batch_bytes,
+                commit=staging_commit[:12],
+            )
+        _progress("stage-objects", "completed", remote_ref=remote_ref)
+        yield
+    finally:
+        if pushed_ref:
+            _delete_remote_ref(repository, remote_ref)
+        if registered:
+            _run_git(
+                repository,
+                "worktree",
+                "remove",
+                "--force",
+                str(staging_worktree),
+                check=False,
+            )
+            _run_git(repository, "worktree", "prune", check=False)
+
+
 def _push_commit(
     worktree: Path,
     remote_ref: str,
@@ -243,6 +457,7 @@ def _push_commit(
             attempt=attempt,
             attempts=attempts,
             commit=commit_sha[:12],
+            remote_ref=remote_ref,
         )
         result = _run_git_streaming(
             worktree,
@@ -1005,7 +1220,10 @@ def _validate_bootstrap_branch(worktree: Path) -> None:
             "existing data branch is not a valid README-only init branch"
         )
     readme = _run_git(worktree, "show", "HEAD:README.md").stdout
-    if readme != render_bootstrap_readme():
+    accepted_readme_sha256s = LEGACY_BOOTSTRAP_README_SHA256S | {
+        _sha256_bytes(render_bootstrap_readme().encode())
+    }
+    if _sha256_bytes(readme.encode()) not in accepted_readme_sha256s:
         raise PublicationError("existing data branch bootstrap README does not match")
 
 
@@ -1037,6 +1255,7 @@ def publish_snapshot(
     temporary = Path(tempfile.mkdtemp(prefix="wot-src-publication-"))
     projected_tree = temporary / "projected"
     worktree = temporary / "worktree"
+    staging_worktree = temporary / "staging-worktree"
     worktree_registered = False
     try:
         publication = project_snapshot(
@@ -1180,7 +1399,15 @@ def publish_snapshot(
             commit_sha = _run_git(worktree, "rev-parse", "HEAD").stdout.strip()
             progress["commit"] = commit_sha[:12]
             progress.update(_git_object_stats(worktree))
-        _push_commit(worktree, remote_ref, commit_sha)
+        with _prestage_large_git_objects(
+            repository,
+            worktree,
+            staging_worktree,
+            branch=branch,
+            commit_sha=commit_sha,
+            changed_files=changed_files,
+        ):
+            _push_commit(worktree, remote_ref, commit_sha)
         _progress(
             "publication",
             "completed",

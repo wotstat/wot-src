@@ -113,6 +113,61 @@ def _snapshot(
     )
 
 
+def test_partitions_changed_blobs_below_the_push_budget() -> None:
+    blobs = (
+        publication_module._GitBlob("a", "100644", "a" * 40, 60),
+        publication_module._GitBlob("b", "100644", "b" * 40, 40),
+        publication_module._GitBlob("c", "100644", "c" * 40, 70),
+    )
+
+    batches = publication_module._partition_git_blobs(blobs, max_batch_bytes=100)
+
+    assert [[blob.path for blob in batch] for batch in batches] == [["a", "b"], ["c"]]
+    assert all(sum(blob.size for blob in batch) <= 100 for batch in batches)
+
+
+def test_large_publication_prestages_blobs_and_removes_temporary_ref(
+    monkeypatch: pytest.MonkeyPatch,
+    tmp_path: Path,
+    capsys: pytest.CaptureFixture[str],
+) -> None:
+    repository, remote = _service_repository(tmp_path)
+    snapshot = tmp_path / "snapshot"
+    snapshot_id, descriptor_sha256 = _snapshot(snapshot, profile="light")
+    monkeypatch.setattr(publication_module, "OBJECT_STAGING_THRESHOLD_BYTES", 1)
+    monkeypatch.setattr(publication_module, "OBJECT_STAGING_BATCH_BYTES", 16_384)
+
+    result = publication_module.publish_snapshot(
+        repository,
+        snapshot,
+        target="wot-eu",
+        branch="test/light-wot-eu",
+        expected_snapshot_id=snapshot_id,
+        expected_descriptor_sha256=descriptor_sha256,
+        expected_profile="light",
+        config_path=ROOT / "config/targets.json",
+    )
+
+    assert result["publication_state"] == "published"
+    assert _git(
+        "--git-dir", str(remote), "rev-parse", "refs/heads/test/light-wot-eu"
+    ) == result["commit_sha"]
+    assert (
+        _git(
+            "--git-dir",
+            str(remote),
+            "for-each-ref",
+            "--format=%(refname)",
+            "refs/heads/publication-staging",
+        )
+        == ""
+    )
+    captured = capsys.readouterr()
+    assert "publisher stage=stage-objects status=started" in captured.err
+    assert "publisher stage=stage-objects status=batch_completed" in captured.err
+    assert "publisher stage=stage-objects status=cleanup_completed" in captured.err
+
+
 def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) -> None:
     repository, remote = _service_repository(tmp_path)
     snapshot = tmp_path / "snapshot"
@@ -313,10 +368,28 @@ def test_same_version_with_changed_data_creates_another_commit(tmp_path: Path) -
     assert stored["descriptor_sha256"] == second_descriptor
 
 
-def test_publish_continues_a_valid_production_init_branch(tmp_path: Path) -> None:
+def _legacy_bootstrap_readme() -> str:
+    current = render_bootstrap_readme()
+    legacy = current.replace("строится", "берётся").replace(
+        "без префикса `v.` в формате `2.3.1.0 #903`",
+        "в формате `v.2.3.1.0 #903`",
+    )
+    assert legacy != current
+    return legacy
+
+
+@pytest.mark.parametrize(
+    "bootstrap_readme",
+    [render_bootstrap_readme(), _legacy_bootstrap_readme()],
+    ids=["current", "legacy"],
+)
+def test_publish_continues_a_valid_production_init_branch(
+    tmp_path: Path,
+    bootstrap_readme: str,
+) -> None:
     repository, remote = _service_repository(tmp_path)
     _git("switch", "--orphan", "wot-eu", cwd=repository)
-    (repository / "README.md").write_text(render_bootstrap_readme())
+    (repository / "README.md").write_text(bootstrap_readme)
     _git("add", "README.md", cwd=repository)
     _git("commit", "--message", "init", cwd=repository)
     _git("push", "origin", "wot-eu", cwd=repository)

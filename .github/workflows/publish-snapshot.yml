@@ -1,8 +1,7 @@
 name: Publish GameSnapshot sources
-run-name: Publish ${{ inputs.expected_profile }} · ${{ inputs.target }} · ${{ inputs.branch }} · @${{ github.actor }}
 
 on:
-  workflow_dispatch:
+  workflow_call:
     inputs:
       runner_label:
         description: Unique label of the JIT runner reserved for this publication
@@ -23,10 +22,7 @@ on:
       expected_profile:
         description: Snapshot build profile
         required: true
-        type: choice
-        options:
-          - full
-          - light
+        type: string
       target:
         description: Configured game target
         required: true
@@ -35,9 +31,19 @@ on:
         description: Pure-data branch to update
         required: true
         type: string
+    outputs:
+      commit_sha:
+        description: Published data commit
+        value: ${{ jobs.publish.outputs.commit_sha }}
+      publication_state:
+        description: Whether the data branch changed
+        value: ${{ jobs.publish.outputs.publication_state }}
+      version_name:
+        description: Published game version
+        value: ${{ jobs.publish.outputs.version_name }}
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: wot-src-${{ inputs.branch }}
@@ -46,6 +52,7 @@ concurrency:
 jobs:
   publish:
     name: Publish ${{ inputs.target }} to ${{ inputs.branch }}
+    environment: selectel
     env:
       PYTHONUNBUFFERED: "1"
     runs-on:
@@ -57,10 +64,23 @@ jobs:
       publication_state: ${{ steps.publish.outputs.publication_state }}
       version_name: ${{ steps.publish.outputs.version_name }}
     steps:
-      - name: Check out publisher from the service branch
+      - name: Mint data-repository token
+        id: app-token
+        uses: actions/create-github-app-token@v3.2.0
+        with:
+          client-id: ${{ vars.GH_APP_CLIENT_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: wot-src
+          permission-contents: write
+
+      - name: Check out the pinned publisher
         uses: actions/checkout@v7.0.1
         with:
-          ref: main
+          repository: ${{ job.workflow_repository }}
+          ref: ${{ job.workflow_sha }}
+          token: ${{ steps.app-token.outputs.token }}
+          fetch-depth: 1
 
       - name: Set up Python and uv
         uses: astral-sh/setup-uv@v10.0.1
@@ -78,7 +98,7 @@ jobs:
           git config user.name "wotstat snapshot publisher"
           git config user.email "snapshot-publisher@users.noreply.github.com"
 
-      - name: Verify, project, commit and push
+      - name: Verify, project, stage, commit and push
         id: publish
         shell: bash
         env:

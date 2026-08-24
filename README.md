@@ -43,21 +43,24 @@ stubs/               # полный manifest payload IDE stubs
 ```text
 game-unpack-pipeline workflow_dispatch
   → временная VM в Selectel
-  → два изолированных ephemeral JIT runner на одной VM
+  → три изолированных ephemeral JIT runner на одной VM
   → game-snapshot-builder собирает и запечатывает GameSnapshot
-  → оркестратор передаёт wot-src workflow локальный путь и identity snapshot
+  → pinned reusable workflow wot-src получает локальный путь и identity snapshot
   → wot-src проверяет snapshot, строит data tree и создаёт commit с точной версией
   → data-ветка отправляется в GitHub
   → runner registrations и ресурсы Selectel удаляются
 ```
 
-Runner для builder и runner для `wot-src` подготавливаются одновременно, но публикация начинается
-только после успешной сборки snapshot. Snapshot не передаётся через Actions artifacts: оба runner
+Runner для builder и оба publisher runner подготавливаются одновременно, но публикация начинается
+только после успешной сборки snapshot. Snapshot не передаётся через Actions artifacts: все runner
 читают один локальный путь на VM, работая под разными Unix-пользователями и в разных рабочих
 каталогах.
 
-Оркестратор вызывает workflow [`publish-snapshot.yml`](.github/workflows/publish-snapshot.yml)
-только из служебной ветки `main`. Publisher независимо проверяет canonical descriptor, маркер
+Оркестратор переиспользует [`publish-snapshot.yml`](.github/workflows/publish-snapshot.yml) через
+`workflow_call` по закреплённому commit SHA. Workflow выполняется как часть основного run, но
+checkout делает из собственного `job.workflow_repository` на `job.workflow_sha`; data-ветка и
+publisher-код поэтому остаются в этом репозитории, а JIT runner принадлежит caller-репозиторию.
+Publisher независимо проверяет canonical descriptor, маркер
 `READY`, snapshot identity, manifest hashes, payload hashes и полное manifest coverage. Затем он
 проецирует только публичные данные, создаёт commit с версией из `sources/version.xml` и отправляет
 его в ветку целевого региона. История data-ветки загружается как commit-only partial fetch; payload
@@ -68,6 +71,12 @@ Production-ветки принимают только `full` snapshot. Light-п�
 публикация той же версии сравнивает только публикуемые данные, не считая служебные метаданные
 изменением данных. При неизменных данных publisher возвращает `unchanged` без commit и push; при
 изменениях создаёт новый commit с тем же сообщением версии и обновлёнными метаданными.
+
+Если суммарный размер изменённых Git blobs превышает 1 ГБ, publisher заранее загружает их
+порциями не более 1 ГБ через уникальную временную ветку `publication-staging/...`. Пока эта ветка
+существует, финальный push version commit переиспользует уже известные GitHub объекты и не создаёт
+единый pack больше 2 ГБ. Временная ветка удаляется после финального push, включая ошибочный путь;
+отдельный файл по-прежнему не может превышать лимит GitHub 100 МиБ.
 
 ## Служебная ветка `main`
 
