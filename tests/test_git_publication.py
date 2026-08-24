@@ -154,7 +154,7 @@ def test_publish_creates_orphan_data_branch_and_is_idempotent(tmp_path: Path) ->
         "-1",
         "--format=%s",
         "refs/heads/test/light-wot-eu",
-    ) == "v.2.3.1.0 #903"
+    ) == "2.3.1.0 #903"
     assert _git(
         "--git-dir",
         str(remote),
@@ -291,7 +291,7 @@ def test_same_version_with_changed_data_creates_another_commit(tmp_path: Path) -
         "log",
         "--format=%s",
         "refs/heads/test/light-wot-eu",
-    ).splitlines() == ["v.2.3.1.0 #903", "v.2.3.1.0 #903"]
+    ).splitlines() == ["2.3.1.0 #903", "2.3.1.0 #903"]
     assert _git(
         "--git-dir",
         str(remote),
@@ -366,7 +366,7 @@ def test_publish_continues_a_valid_production_init_branch(tmp_path: Path) -> Non
     ) == "2"
     assert _git(
         "--git-dir", str(remote), "log", "--format=%s", "refs/heads/wot-eu"
-    ).splitlines() == ["v.2.3.1.0 #903", "init"]
+    ).splitlines() == ["2.3.1.0 #903", "init"]
 
     data_checkout = tmp_path / "production-checkout"
     _git("clone", "--branch", "wot-eu", str(remote), str(data_checkout))

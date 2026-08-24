@@ -18,8 +18,8 @@
 | Мир танков — Public Test | [`mt-public-test`](https://github.com/wotstat/wot-src/tree/mt-public-test) |
 
 Каждая production data-ветка начинается с bootstrap commit `init`, содержащего этот README. Каждый
-следующий commit соответствует одной версии клиента: сообщение берётся из `sources/version.xml`
-в формате `v.2.3.1.0 #903`, а точный release name записывается в `.version_name`.
+следующий commit соответствует одной версии клиента: сообщение строится из `sources/version.xml`
+без префикса `v.` в формате `2.3.1.0 #903`, а точный release name записывается в `.version_name`.
 
 ## Структура data-ветки
 

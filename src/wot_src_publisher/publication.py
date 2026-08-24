@@ -16,7 +16,7 @@ from typing import Any
 SHA256_RE = re.compile(r"^[a-f0-9]{64}$")
 SNAPSHOT_ID_RE = re.compile(r"^sha256:[a-f0-9]{64}$")
 LANGUAGE_RE = re.compile(r"^[A-Z]{2}(?:_[A-Z]{2})?$")
-COMMIT_VERSION_RE = re.compile(r"^v\.[0-9]+(?:\.[0-9]+){3} #[0-9]+$")
+VERSION_XML_COMMIT_RE = re.compile(r"^v\.[0-9]+(?:\.[0-9]+){3} #[0-9]+$")
 SOURCE_SUFFIXES = frozenset({".po", ".py", ".xml"})
 GAMEFACE_PREFIX = "res/gui/gameface/"
 MANIFEST_NAMES = ("files", "actionscript", "stubs", "packages", "conflicts")
@@ -425,9 +425,9 @@ def _commit_subject(source_map: dict[str, PayloadFile]) -> str:
         raise PublicationError(f"cannot parse root version.xml: {error}") from error
     version = root.find("version")
     subject = " ".join(version.text.split()) if version is not None and version.text else ""
-    if not COMMIT_VERSION_RE.fullmatch(subject):
+    if not VERSION_XML_COMMIT_RE.fullmatch(subject):
         raise PublicationError(f"root version.xml has an invalid commit version: {subject!r}")
-    return subject
+    return subject.removeprefix("v.")
 
 
 def _data_readme_intro() -> str:
@@ -448,8 +448,8 @@ def _data_readme_intro() -> str:
 {region_rows}
 
 Каждая production data-ветка начинается с bootstrap commit `init`, содержащего этот README. Каждый
-следующий commit соответствует одной версии клиента: сообщение берётся из `sources/version.xml`
-в формате `v.2.3.1.0 #903`, а точный release name записывается в `.version_name`.
+следующий commit соответствует одной версии клиента: сообщение строится из `sources/version.xml`
+без префикса `v.` в формате `2.3.1.0 #903`, а точный release name записывается в `.version_name`.
 
 ## Структура data-ветки
 

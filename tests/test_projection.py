@@ -147,7 +147,7 @@ def test_wargaming_projection_applies_default_locale_and_keeps_all_locales(
     assert publication["build_profile"] == "light"
     assert publication["default_locale"] == "EN"
     assert publication["branch"] == "test/light-wot-eu"
-    assert publication["commit_subject"] == "v.2.3.1.0 #903"
+    assert publication["commit_subject"] == "2.3.1.0 #903"
 
 
 def test_lesta_projection_uses_base_and_ignores_locale_layers(tmp_path: Path) -> None:
